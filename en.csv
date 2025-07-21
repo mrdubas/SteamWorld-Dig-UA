@@ -1,0 +1,950 @@
+"beep!"	"test"	"test"
+
+# ------ Upgrades -------
+"upgrade_armor_1_01"	"Plate Armor"	"Armor decides how long Rusty's life bar is; each level adds another segment to the life bar. With a longer life bar, he can take more damage before he dies. Note that each level should have a 'tougher' name than the one before. "
+"upgrade_armor_1_02"	"Sturdy Armor"	""
+"upgrade_armor_2_01"	"Hard Armor"	""
+"upgrade_armor_2_02"	"Thick Armor"	""
+"upgrade_armor_3_01"	"Super Armor"	""
+"upgrade_armor_3_02"	"Uber Armor"	""
+"upgrade_armor_reduce"	"Damage Reduction"	""
+
+"upgrade_water_1_01"	"Deep Tank"	"Tank decides how long Rusty's water bar is; each level adds another segment to the water bar. With a longer water bar, he can use special tools longer. Note that each level should have a 'tougher' name than the one before."
+"upgrade_water_1_02"	"Dual Tank"	""
+"upgrade_water_2_01"	"Huge Tank"	""
+"upgrade_water_2_02"	"Super Tank"	""
+"upgrade_water_3_01"	"Unfathomable Tank"	""
+"upgrade_water_3_02"	"Bottomless Tank"	""
+"upgrade_water_process"	"Water Seal"	""
+
+"upgrade_light_1_01"	"Coal Lantern"	"Lantern decides how much time Rusty can spend in the mine before his light dwindles; each level adds another 60 seconds of light. Note that each level should have a 'tougher' name than the one before."
+"upgrade_light_2_01"	"Oil Lantern"	""
+"upgrade_light_3_01"	"Plasma Lantern"	""
+
+"upgrade_pouch_1_01"	"Medium Pouch"	"Pouch upgrades decide how many slots Rusty can use in his inventory to store ore he finds; each level opens another another slot. Note that each level should have a name denoting bigger size than the one before it."
+"upgrade_pouch_1_02"	"Big Pouch"	""
+"upgrade_pouch_1_03"	"Bigger Pouch"	""
+"upgrade_pouch_2_01"	"Gigantic Pouch"	""
+"upgrade_pouch_2_02"	"Humongous Pouch"	""
+"upgrade_pouch_3_01"	"Gargantuan Pouch"	""
+
+"upgrade_enable_pickaxe"	"Old Pickaxe"	""
+"upgrade_pickaxe_pre"	"Sharp Pickaxe"	"Rusty's first and most basic tool. Can be upgraded according to the below. Each upgrade decreases the number of hits you need to break stone. Note that each level should have a 'tougher' name than the one before."
+"upgrade_pickaxe_1_01"	"Copper Pickaxe"	""
+"upgrade_pickaxe_1_02"	"Bronze Pickaxe"	""
+"upgrade_pickaxe_1_03"	"Iron Pickaxe"	""
+"upgrade_pickaxe_1_04"	"Steel Pickaxe"	""
+"upgrade_pickaxe_2_01"	"Tungsten Pickaxe"	""
+"upgrade_pickaxe_2_02"	"Silver Pickaxe"	""
+"upgrade_pickaxe_2_03"	"Gold Pickaxe"	""
+"upgrade_pickaxe_2_04"	"Platinum Pickaxe"	""
+"upgrade_pickaxe_3_01"	"Garnet Pickaxe"	""
+"upgrade_pickaxe_3_02"	"Emerald Pickaxe"	""
+"upgrade_pickaxe_3_03"	"Ruby Pickaxe"	""
+"upgrade_pickaxe_3_04"	"Diamond Pickaxe"	""
+"upgrade_pickaxe_speed_1"	"Swift Pickaxe"	"Increases the number of times Rusty can swing his pickaxe during a given amount of time. A one time upgrade."
+"upgrade_pickaxe_damage_1"	"Damaging Pickaxe"	"Increases the amount of damage Rusty's pickaxe inflicts upon enemies. First out of two one-time upgrades"
+
+"upgrade_drill_1_01"	"DrillMaster"	"Increases the damage Rusty's drill inflicts on dirt tiles. Each name should sound cooler than the one before it."
+"upgrade_drill_1_02"	"Drill-o-tron"	""
+"upgrade_drill_2_01"	"Drill Star"	""
+"upgrade_drill_2_02"	"Hyper Drill"	""
+"upgrade_drill_efficiency"	"Improved Hydraulics"	""
+
+"upgrade_punch_1_01"	"Sucker Punch"	"Punch upgrades increase the damage Rusty's steam punch inflicts on dirt tiles and enemies. Each name should sound cooler than the one before it."
+"upgrade_punch_1_02"	"Hammer Punch"	""
+"upgrade_punch_1_03"	"Knock Out Punch"	""
+"upgrade_punch_speed"	"Hydraulic Fluid"	""
+
+"upgrade_dynamite"	"Dynamite"	""
+"upgrade_ladder"	"Ladder"	"Stackable ladders."
+"upgrade_lamp"	"Lamp"	"Placeable lamps to light up the mine."
+"upgrade_teleporter"	"Teleporter"	""
+
+"upgrade_enable_run"	"Speed Boots"	"Enables Rusty to run fast enough to traverse over sink stones and will let hit jump farther and higher."
+"upgrade_enable_charge_jump"	"Steam Jump"	"Will enable Rusty to boost his jump. Drains water reserves when used."
+"upgrade_enable_dynamite"	"Dynamite"	""
+"upgrade_enable_drill"	"Drill"	"Enables Rusty to drill through a special type of rock not susceptible to other tool. Drains water when used."
+"upgrade_enable_punch"	"Steam Punch"	"Enables Rusty to punch through a row of dirt. Force depends on how long you press to load the tool. Drains water when used."
+"upgrade_enable_jump_double"	"Double Jump"	"Enables Rusty to make a second jump while in the air."
+"upgrade_fall_dampeners"	"Fall Dampeners"	"Enables Rusty to survive any fall."
+"upgrade_static_dash"	"Static Dash"	""
+"upgrade_jump_double"	"Double Jump"	""
+"upgrade_minimap_resources"	"Mineral Detector"	"Will make resources visible on the mini map."
+"upgrade_chargejump_1"	"Pressurizer"	""
+"upgrade_locked"	"Locked"	""
+
+# ------ Upgrades Desc -------
+"upgrade_armor_1_01_desc"	"+1 max health. \nI'll slap some pieces on to that armour of yers. Make it a bit tougher."	"In-store descriptions for armor upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_armor_1_02_desc"	"+1 max health. \nA bit of welding should make those armour pieces fit together better."	""
+"upgrade_armor_2_01_desc"	"+1 max health. \nI can get some more protection out of this armor by tempering the metal, pardner."	""
+"upgrade_armor_2_02_desc"	"+1 max health. \nBy layering your armor with a metal of higher quality, I can get it real tough."	""
+"upgrade_armor_3_01_desc"	"+1 max health. \nThis armor has been cast from the highest grade of metal available."	""
+"upgrade_armor_3_02_desc"	"+1 max health. \nThe metal has been folded and folded again until it's as strong as possible."	""
+"upgrade_armor_reduce_1_desc"	"25% damage resistance. \nBy reshaping the angles of your armour, the fiends will never hit true."	""
+
+"upgrade_water_1_01_desc"	"+1 max water. \nI can expand that water tank for ye a wee bit."	"In-store descriptions for water tank upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_water_1_02_desc"	"+1 max water. \nI guess I could add another tank, next to the one ye've got."	""
+"upgrade_water_2_01_desc"	"+1 max water. \nOld tank will have to come out, pilgrim, but I'm sure we can fit a bigger one in there."	""
+"upgrade_water_2_02_desc"	"+1 max water. \nBigger is always better. We just have to move some stuff around."	""
+"upgrade_water_3_01_desc"	"+1 max water. \nI really haven't got the exact measurements for this one. Perceivably limitless, isn't it?"	""
+"upgrade_water_3_02_desc"	"+1 max water. \nEcho... echo... echo... I guess there could be a bottom somewhere down there, after all."	""
+"upgrade_water_process_1_desc"	"+50% water from pools. \nA sealing solution so you don't lose a drop of the water you find."	""
+
+"upgrade_light_1_01_desc"	"+60 second light duration. \nIf we upgrade yer furnace to burn coal instead of wood it'll shine a wee bit longer."	"In-store descriptions for lantern upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_light_2_01_desc"	"+60 second light duration. \nOil! It's the way of the future, sonny."	""
+"upgrade_light_3_01_desc"	"+60 second light duration. \nThe latest advances in physics. It will make you shine like the star you are."	""
+
+"upgrade_pouch_1_01_desc"	"+1 inventory slot. \nYe'll need a bigger pouch if ye want to bring up some bigger hauls."	"In-store descriptions for pouch upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_pouch_1_02_desc"	"+1 inventory slot. \nYe just need to put yer back into it and ye'll be able to carry this pouch."	""
+"upgrade_pouch_1_03_desc"	"+1 inventory slot. \nThis is the biggest pouch I'm able manufacture on me own."	""
+"upgrade_pouch_2_01_desc"	"+1 inventory slot. \nRoomy as a stage coach, this one."	""
+"upgrade_pouch_2_02_desc"	"+1 inventory slot. \nThere's a handy stretchiness to the fabric of this here pouch. Class out the wazoo."	""
+"upgrade_pouch_3_01_desc"	"+1 inventory slot. \nTriple hemmed and double layered to handle a massive amount of the most arduous load."	""
+
+"upgrade_pickaxe_pre_desc"	"I'll sharpen that Pickaxe for ye. It'll let ye dig into harder soil."	"In-store descriptions for pickaxe upgrades. The instances with the suffix pre or _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_pickaxe_1_01_desc"	"+2 ground damage. \nSturdier than what ye've got, at least."	""
+"upgrade_pickaxe_1_02_desc"	"+2 ground damage. \nAdding a bit of tin to that blade should strengthen it."	""
+"upgrade_pickaxe_1_03_desc"	"+2 ground damage. \nNow this is some premium grade metal. Nice and pure."	""
+"upgrade_pickaxe_1_04_desc"	"+2 ground damage. \nI'll temper yer blade and ye should get some more punch to yer digging."	""
+"upgrade_pickaxe_2_01_desc"	"+2 ground damage. \nA robust axe, for an adventurer like yourself."	""
+"upgrade_pickaxe_2_02_desc"	"+2 ground damage. \nA liquid silver core will give that swing some extra heft."	""
+"upgrade_pickaxe_2_03_desc"	"+2 ground damage. \nUpgrade that core to pure gold to put even more weight in your swing."	""
+"upgrade_pickaxe_2_04_desc"	"+2 ground damage. \nDurable is the word best used to describe this here pick."	""
+"upgrade_pickaxe_3_01_desc"	"+2 ground damage. \nSharp and tough. Oh, and it comes in multiple colours."	""
+"upgrade_pickaxe_3_02_desc"	"+2 ground damage. \nOne can always do with an upgrade on the hardness scale."	""
+"upgrade_pickaxe_3_03_desc"	"+2 ground damage. \nIt's not only the magnificent colour that demands a premium."	""
+"upgrade_pickaxe_3_04_desc"	"+2 ground damage. \nHard as hard can be. Timeless beauty is just icing on the cake."	""
+"upgrade_pickaxe_speed_1_desc"	"+20% pickaxe speed. \nAerodynamics, pardner! This here process will make that pickaxe cut through air like butter."	"In-store description for the speed upgrade to the pickaxe. Sold by Biff."
+"upgrade_pickaxe_damage_1_desc"	"+1 enemy damage. \nYe want to treat the tip of yer pickaxe with this? Make shorter work of most fiends."	"In-store description for enemy damage upgrade for the pickaxe. Sold by Cranky."
+
+"upgrade_drill_1_01_desc"	"+4 ground damage. \nThe DrillMaster 3000 is a drill head with advanced ridge grooves to help shuffle harder dirt."	"In-store descriptions for drill upgrades. The instances with the suffix _1 are sold by Biff; _2 by Dandy."
+"upgrade_drill_1_02_desc"	"+4 ground damage. \nThe Drill-o-tron is the latest and greatest in drill head technology."	""
+"upgrade_drill_2_01_desc"	"+4 ground damage. \nDrill Star! Accept no substitute."	""
+"upgrade_drill_2_02_desc"	"+4 ground damage. \nThe Hyper Drill will cut through diamond encrusted platinum without a single hiccup."	""
+"upgrade_drill_efficiency_1_desc"	"-33% drill water drain. \nThis will generate less friction so you'll save some of that water."	"Drill will consume only half as much water as before. Sold by Biff."
+
+"upgrade_punch_1_01_desc"	"+2 ground damage, +1 enemy damage. \nThose rocks won't see what hit them. All's fair in love and mining."	"In-store descriptions for steam punch upgrades. Sold by Dandy."
+"upgrade_punch_1_02_desc"	"+2 ground damage, +1 enemy damage. \nNow with more efficient force build-up."	""
+"upgrade_punch_1_03_desc"	"+2 ground damage, +1 enemy damage. \nYou'll not find a rougher tool enhancement this side of the Rio Grande."	""
+"upgrade_punch_speed_1_desc"	"+50% steam punch charge speed. \nWith proper lubrication you'll be able to increase the output."	"Decreases the charge time for the steam punch. Sold by Dandy."
+
+"upgrade_dynamite_desc"	"Pretty basic, ye throw it at whatever ye want to blow to smithereens. Just try not to get caught in yer own blast."	"In-store description of dynamite. Sold by Cranky."
+"upgrade_ladder_desc"	"Practical thing to keep on yer person. Ye can stack them on top of each other to get out of tricky situations!"	"In-store description of ladder. Sold by Cranky."
+"upgrade_lamp_desc"	"Ye can mark out a spot ye want to keep bright with these placeable lamps."	"In-store description of lamp. Sold by Cranky."
+"upgrade_teleporter_desc"	"Joe's strange devices. He'd use them to create shortcuts back to Tumbleton. Ye're welcome to try them out."	"In-store description of teleporter. Sold by Cranky."
+"upgrade_chargejump_desc"	"-50% steam jump water drain. \nThese add-on pressure chambers will optimize yer steam jump."	"In-store description of steam jump upgrade. Sold by Cranky."
+
+"restore_health"	"Health"	"Will fill up your health bar to max."
+"restore_health_desc"	"Give ye a nice pick-me-up and restore ye to full health."	"Cranky's in-store description of the health fill up."
+
+"buy_failed_too_expensive_Cranky"	"Sorry, ye can naw afford that."	"Speaker=Cranky"
+"buy_failed_full_Cranky"	"That's enough of that, now."	"Speaker=Cranky"
+"buy_failed_locked_Cranky"	"Got a bit more tinkering to do on this one."	"Speaker=Cranky"
+
+"buy_failed_too_expensive_Jack"	"Can't rightly discount it more than that, pardner."	"Speaker=Biff"
+"buy_failed_full_Jack"	"You've filled up on that already."	"Speaker=Biff"
+"buy_failed_locked_Jack"	"A bit above your level. Maybe another shop's got something you can handle right now."	"Speaker=Biff"
+
+"buy_failed_too_expensive_Dandy"	"It's a fair price, I believe."	"Speaker=Dandy"
+"buy_failed_full_Dandy"	"Oh, I would never try to sell you more than you have use of, sir."	"Speaker=Dandy"
+"buy_failed_locked_Dandy"	"Sorry, this is not compatible with your version. You might find something more fitting in the other shops."	"Speaker=Dandy"
+
+#------- Character names -------
+"character_unknown"	"???"	"Should not be localized."
+"character_rusty"	"Rusty"	"Should not be localized."
+"character_dorothy"	"Dorothy"	"Should not be localized."
+"character_cranky"	"Cranky"	"Should not be localized."
+"character_lola"	"Lola"	"Should not be localized."
+"character_jack"	"Biff"	"Should not be localized."
+"character_dandy"	"Dandy"	"Should not be localized."
+"character_hola"	"Hola"	"Should not be localized."
+"character_joe"	"Voltbot"	"Should not be localized."
+
+#------- Banner text -------
+"banner_pickup_header"	"Item Acquired"	"Text displayed in a banner when Rusty picks up his first pickaxe."
+"banner_upgrade_header"	"Technology Assimilated"	"Text displayed in a banner when Rusty finds new technology upgrades down in caves."
+"banner_bought_header"	"Upgrade Bought"	"Text displayed in a banner when an upgrade is bought."
+"banner_bought_text"	"%1% Rank %2%"	"%1% is upgrade name, %2% is rank (as 2/3); only the word Rank needs to be localized"
+"banner_upgrade_item_header"	"Item Unlocked"	"Text displayed in a banner when a new item is unlocked in a store."
+"banner_level_header"	"New Area"	"Text displayed in a banner when Rusty first arrives to an area."
+"banner_level_archaea"	"Archaea"	"Should not be localized"
+"banner_level_tumbleton"	"Tumbleton"	"Should not be localized"
+"banner_level_old_world"	"Old World"	"Should not be localized"
+"banner_level_vectron"	"Vectron"	"Should not be localized"
+"banner_sell_text"	"Got $%1%!"	"%1% is money amount gained from selling your inventory. Only the word Got should be localized."
+"banner_upgrade_unlocked"	"Upgrade Unlocked!"	"Text displayed in a banner when a new upgrade is unlocked."
+"banner_shop_unlocked"	"Tumbleton Grows!"	"Text displayed in a banner when a new store is available in town."
+"expbar_header"	"Treasure Points:"	"Text displayed as headline in the UI for treasure points. This UI pops out when selling resources as they are converted to treasure points that Rusty collects to unlock new items and shops."
+"banner_new_quest_header"	"New Quest"	"Text displayed in a banner when a new undefined quest is set to in-progress."
+"exp_bar_level"	"Level: "	"Displayed in the treasure points UI in fornt of the amount indicator of treasure points gathered. "
+"exp_bar_next_level"	"Next: "	"Text in the Treasure poits UI denoting how many points to next level, when new items will be unlocked."
+"found_secret"	"Secret Area!"	"Displayed in a banner when Rusty finds a secret area in the mine."
+
+# ------ Quest Banners
+"banner_quest_return"	"Return to Town"	"Displayed in a banner when the quest is to return to town."
+"banner_quest_pickaxe"	"Find Uncle Joe"	"Displayed in a banner when Rusty gets a specific quest to go see the dead body of his uncle Joe."
+"banner_quest_lever"	"Find Lever"	"Displayed in a banner when Rusty gets a specific quest to go pull a lever to open a door."
+"banner_quest_mining"	"Mine for Ore"	"Displayed in a banner when Rusty gets a specific quest to go and try mining ore for the first time."
+"banner_quest_sell"	"Sell Loot"	"Displayed in a banner when Rusty gets a specific quest to go sell the ore he found on the above quest."
+"banner_quest_explore"	"Explore Cave"	"Displayed in a banner when Rusty gets a specific quest to go explore a cave."
+"banner_quest_explore2"	"Explore the Depths"	"Displayed in a banner when Rusty has finished the last quest of a world and should enter the next one; before he knows the name of that world."
+"banner_quest_explore3"	"Continue Exploring"	"Displayed in a banner when Rusty has found an upgrade in Old World but is not forced to go up to town to get his next quest."
+"banner_quest_oldworld"	"Explore Old World"	"Displayed in a banner when Rusty gets a quest to explore old world."
+"banner_quest_vectron"	"Explore Vectron"	"Displayed in a banner when Rusty gets a quest to explore Vectron"
+"banner_quest_boss"	"Attack"	"Displayed in a banner when Rusty is able to damage the boss in the final show down."
+"banner_quest_bossdoor"	"Enter The Door"	"Displayed in a banner when Rusty is able to enter the final boss room."
+"banner_quest_generator"	"Destroy Generator"	"Displayed in a banner when Rusty should go and destroy the generators."
+
+#------- Menu items -------
+"ui_back"	"Back"	"Displayed on a button that will take you back in the UI."
+"ui_self_destruct"	"Self Destruct"	"Displayed on a button that will kill Rusty so he will re-spawn in town. Used if player gets stuck."
+"ui_options"	"Options"	"Displayed on a button that will take you to the Options menu."
+"effectsvolume"	"Sound Effects"	"Heading over the slider in the options menu."
+"musicvolume"	"Music Volume"	"Heading over the slider in the options menu."
+"ui_restart_demo"	"Restart Demo"	"Only shown in the Demo Mode, instead of ui_main_menu."
+"ui_confirm_restart_demo"	"Are you sure you want to restart?"	"Is displayed to warn the player of the consequences of restarting the demo."
+"ui_main_menu"	"Main Menu"	"Displayed on a button that will take you to the main menu."
+"ui_continue"	"Continue"	"Displayed on a button that will take you to the next step in a given circumstance."
+"ui_paused"	"Paused"	"Displayed when the game is paused."
+"ui_game_over_info"	"You were destroyed.\nRepair cost: $%1% (50%%)"	"Shown in a text box when having died, informs the player about there being a fee for being reconstructed."
+"ui_game_over_continue"	"Continue"	"Is displayed on a button that will let you play again after Rusty dies. The A: signifies which button to press if not using the touch screen."
+"ui_game_over_try_again"	"Try Again"	"Is displayed on a button that will let you play again after Rusty dies in a level, pressing it restarts the level. The A: signifies which button to press if not using the touch screen."
+"ui_confirm_self_destruct"	"Are you sure you want to self destruct and reconstruct in Tumbleton for a fee?"	"Is displayed to warn the player of the consequences of using the selfdestruct button in the mine."
+"ui_confirm_self_destruct_cave"	"Are you sure you want to self destruct and restart the level?"	"Is displayed to warn the player of the consequences of using the selfdestruct button in a cave."
+"ui_confirm_main_menu"	"Are you sure you want to quit? Unsaved progress will be lost."	"Is displayed to warn the player of the consequences of quitting the game."
+"ui_confirm_buy_upgrade"	"Do you want to buy %1%?\nCash: %2%, Orbs: %3%"	"%1% is name of upgrade, %2% is cost in Cash, %3% is cost in orbs"
+"ui_saved_game"	"Game Saved"	"On screen text when the game auto saves."
+"ui_press_x_again_to_skip_conversation"	"Press X again to skip conversation."	"Tells the player that hitting the X button one more time will skip a dialogue in progress."
+"ui_conversation_name_separator"	": "	"Separator between name of character and the text they're saying. No additional spaces added."
+"ui_conversation_ellipsis_start"	"... "	"Added at the start of text that continues from a previous page. No additional spaces added."
+"ui_conversation_ellipsis_end"	" ..."	"Added at the end of text that will continue on the next page. No additional spaces added."
+"ui_exitshop"	"Exit"	"Displayed on a button that makes you leave the shop UI."
+"ui_buyitem"	"Buy"	"Displayed on a button that makes you buy an item in the shop UI."
+"menu_slot_0_number"	"Slot A"	"First slot of saved games in the start menu."
+"menu_slot_1_number"	"Slot B"	"second slot."
+"menu_slot_2_number"	"Slot C"	"third slot."
+"menu_play"	"Play"	"Displayed on a button that confirms the save game slot selected to be played."
+"menu_start"	"Start"	"Displayed on a button that starts the game once it has been opened from the 3DS menu."
+"menu_press_x_to_skip"	"Press X now to skip."	"tells the player that hitting the X button one more time will skip though a menu"
+"message_yes"	"Yes"	"Displayed on a confirm button"
+"message_no"	"No"	"Displayed on a discard button"
+"message_question"	"Are you sure you want to erase this slot?"	"An extra warning for players hitting the erase button."
+
+#------- Stats screen ------
+"menu_stats_title"	"~Completion Stats~"	"Title showed in stats screen (lower screen during end game credits), should fit on one line"
+"menu_stat_time"	"Time:"	"As in how long it took to finish the game"
+"menu_stat_gold"	"Total Cash:"	"As in total cash collected during play through"
+"menu_stat_orbs"	"Total Orbs:"	"As in total orbs collected during play through"
+"menu_stat_deaths"	"Deaths:"	"As in total times died during play through"
+
+#------- Inventory ------
+"inventory_no_selection"	"No slot selected"	""
+"inventory_slot_locked"	"Slot locked"	""
+"inventory_slot_empty"	"Slot empty"	""
+"inventory_slot_format"	"%1%: $%2% (Stack: $%3%)"	"%1% will be item name, %2% will be item value, %3% will be total value of stack"
+"inventory_slot_format_gem"	"%1%: $%2%"	"%1% will be item name, %2% will be item value. Used for gems, since they cannot stack"
+"inventory_haul"	"Total value:"	""
+"inventory_depth"	"Depth:"	""
+
+#------- Resources -----
+
+"resource_ore_trashium"	"Trashium"	""
+"resource_ore_copper"	"Copper"	""
+"resource_ore_ironium"	"Ironium"	""
+"resource_ore_silver"	"Silver"	""
+"resource_ore_dolomite"	"Dolomite"	""
+"resource_ore_bronzite"	"Bronzite"	""
+"resource_ore_chocolotite"	"Chocolotite"	""
+"resource_ore_galena"	"Galena"	""
+"resource_ore_gold"	"Gold"	""
+"resource_ore_biotite"	"Biotite"	""
+"resource_ore_obsidian"	"Obsidian"	""
+"resource_ore_lazurite"	"Lazurite"	""
+"resource_ore_uranium"	"Uranium"	""
+"resource_ore_beryllium"	"Beryllium"	""
+"resource_ore_red_gold"	"Red Gold"	""
+"resource_ore_purpletite"	"Purpletite"	""
+"resource_ore_ambrium"	"Ambrium"	""
+"resource_ore_meteorrock"	"Meteor Rock"	""
+"resource_ore_unobtanium"	"Unobtanium"	""
+"resource_ore_gravitonium"	"Gravitonium"	""
+"resource_ore_darkmatter"	"Dark Matter"	""
+
+"resource_crystal_citrine"	"Citrine"	""
+"resource_crystal_quartz"	"Quartz"	""
+"resource_crystal_amethyst"	"Amethyst"	""
+"resource_crystal_avenyurine"	"Avenyurine"	""
+"resource_gem_zoisite"	"Zoisite"	""
+"resource_gem_topaz"	"Topaz"	""
+"resource_gem_emerald"	"Emerald"	""
+"resource_gem_ruby"	"Ruby"	""
+"resource_gem_diamond"	"Diamond"	""
+
+"resource_coin"	"Coin"	""
+
+#------- World text -------
+"inventory_full"	"No Room!"	"An on screen text displayed when close to a resource while having no more room in the inventory pouch."
+"buildings_max"	"Too many!"	""
+"buildings_out_of_stock"	"I'm out!"	""
+"buildings_not_here"	"Not here!"	""
+"lamps_too_close"	"Too close!"	"An on screen text displayed when trying to place lamps too close to each other."
+"light_time_depleted"	"Need Light..."	"An on screen text displayed when light is completely depleted."
+"resource_pickup"	"%1% ($%2%)"	"%1% is resource name, %2% is value; controlled by other text so does not have to be localized."
+"need_water"	"Need Water..."	"An on screen text displayed when trying to use tools that consume water when water supply is depleted."
+
+# ------ Conversation response buttons
+"next"	"Next"	"Displayed on a button that will skip to the next part of a dialogue in progress."
+
+# ------ Indicator text
+"dig_text"	"Dig"	"Displayed in combination with on-screen graphics explaining how to dig."
+"run_text"	"Run"	"Displayed in combination with on-screen graphics explaining how to run."
+"runjump_text"	"Run + Jump"	"Displayed in combination with on-screen graphics explaining how to run-jump."
+"chargejump_text"	"Steam Jump"	"Displayed in combination with on-screen graphics explaining how to charge jump."
+"drill_text"	"Drill"	"Displayed in combination with on-screen graphics explaining how to use the drill."
+"toggle_kit_text"	"Cycle Equipment"	"Displayed in combination with on-screen graphics explaining how to switch items in use."
+"walljump_text"	"Wall Jump"	"Displayed in combination with on-screen graphics explaining how to jump up along walls."
+"doublejump_text"	"Static Dash"	"Displayed in combination with on-screen graphics explaining how to use the double jump upgrade."
+
+# ------ DEATH DIALOGUE.
+"death_fallback_00"	"*Tsk*, *Tsk*, *Tsk*."	"Speaker=Lola; This is an approximation of the smacking sound one makes to show that someone has done something wrong. All death dialogue is used to give tips on how to better handle, whatever killed you, the next time you encounter it."
+"death_fallback_01"	"You really should be more careful now, you hear."	"Speaker=Lola"
+
+"death_first_00"	"Can't always go the way you plan it, I guess."	"Speaker=Lola"
+"death_first_01"	"Cranky was able to put you back together, though."	"Speaker=Lola"
+"death_first_02"	"Had to order in new parts and all, too."	"Speaker=Lola"
+"death_first_03"	"Weren't cheap neither. He charged you a bit of a reassembly fee."	"Speaker=Lola"
+
+"death_crush_00"	"Careful where you dig, tiger."	"Speaker=Lola"
+"death_crush_01"	"It can be hard to see the dangers down there if your light's too low."	"Speaker=Lola"
+"death_crush_02"	"Come back up to the surface to fill your light back up."	"Speaker=Lola"
+"death_crush_03"	"Those blocks will crush anything in their way."	"Speaker=Lola"
+"death_crush_04"	"Mind your step."	"Speaker=Lola"
+
+"death_fall_00"	"Don't go jumping off cliffs any which way. Slide against the walls so you don't get hurt."	"Speaker=Lola"
+"death_fall_01"	"You're only able to fall a short distance before taking damage."	"Speaker=Lola"
+"death_fall_02"	"If you break down there, you can return later to pick up what you dropped."	"Speaker=Lola"
+"death_fall_03"	"It's always a good idea to top off your health before going down into the dark."	"Speaker=Lola"
+
+"death_suicide_00"	"If you can't carry everything you mine, be sure to go back and pick it up later."	"Speaker=Lola"
+"death_suicide_01"	"Water is a good thing to dig for if you get stuck. Might help you get out again."	"Speaker=Lola"
+"death_suicide_02"	"Some of those new skills you've acquired might help you get back up in one piece."	"Speaker=Lola"
+"death_suicide_03"	"Digging deeper can help you get back up again."	"Speaker=Lola"
+"death_suicide_04"	"If the dirt is packed too hard, you might want to upgrade that pickaxe."	"Speaker=Lola"
+"death_suicide_05"	"You can reach across vertical tunnels to dig yourself a new path."	"Speaker=Lola"
+
+"death_enemy_acidblock_00"	"Try picking at them dangerous blocks from different sides."	"Speaker=Lola"
+"death_enemy_acidblock_01"	"You want to pass them acid drops, you'll have to time it just perfectly."	"Speaker=Lola"
+"death_enemy_acidblock_02"	"Some of the gunk down there will eat away at the dirt and your metal."	"Speaker=Lola"
+"death_enemy_acidblock_03"	"The Shiners will get just as burned as you by their own waste."	"Speaker=Lola"
+
+"death_enemy_ACID_POOL_00"	"Fiends will get just as hurt as you by that stuff."	"Speaker=Lola"
+"death_enemy_ACID_POOL_01"	"You can handle a little bit of that stuff but you shouldn't take a bath in it."	"Speaker=Lola"
+
+"death_enemy_trilobite_00"	"The critters can drop some useful things when you clobber them."	"Speaker=Lola"
+"death_enemy_trilobite_01"	"Strong boy like you should be able to take them critters with your pickaxe."	"Speaker=Lola"
+"death_enemy_trilobite_02"	"You should always try to get at the critters before they break out of the ground."	"Speaker=Lola"
+"death_enemy_trilobite_03"	"If you follow them critters and hit them in the back you're less likely to get hurt."	"Speaker=Lola"
+"death_enemy_trilobite_04"	"You can use the advantage of higher ground to keep out of harm's way."	"Speaker=Lola"
+"death_enemy_trilobite_05"	"Having a hole between yourself and the critters takes a bit longer, but it's safer."	"Speaker=Lola"
+
+"death_ENEMY_TURTLE_BASE_00"	"You needs to make room to handle these creatures without getting hurt."	"Speaker=Lola"
+"death_ENEMY_TURTLE_BASE_01"	"Best to just stay clear of them shelled devils if you can."	"Speaker=Lola"
+"death_ENEMY_TURTLE_BASE_02"	"Be careful not to let them ruin your way back up."	"Speaker=Lola"
+"death_ENEMY_TURTLE_BASE_03"	"If you've got enough health you can just duke it out with them."	"Speaker=Lola"
+
+"death_enemy_shiner_00"	"If you're quiet you might catch them in their sleep."	"Speaker=Lola"
+"death_enemy_shiner_01"	"Not too bright them Shiners. Shouldn't be too hard to dig traps for them."	"Speaker=Lola"
+
+"death_enemy_boozer_00"	"Stay clear of them bottles now, your hear."	"Speaker=Lola"
+"death_enemy_boozer_01"	"They're a rough kind them Boozers. Try getting them from below."	"Speaker=Lola"
+"death_enemy_boozer_02"	"You might be able to blow away the ground below them Boozers."	"Speaker=Lola"
+"death_enemy_boozer_03"	"Weak legs on them Boozers. Try digging out the ground below them."	"Speaker=Lola"
+
+"death_enemy_barrel_00"	"If you hit them barrels and run, you might control the blast a bit."	"Speaker=Lola"
+"death_enemy_barrel_01"	"Don't stand too close to them barrels for too long."	"Speaker=Lola"
+"death_enemy_barrel_02"	"I could feel the ground shaking way up here."	"Speaker=Lola"
+"death_enemy_barrel_03"	"If more barrels are close by when one blows, you might set off a chain reaction."	"Speaker=Lola"
+
+"death_enemy_spike_00"	"You can dig them spikes out from below."	"Speaker=Lola"
+"death_enemy_spike_01"	"They can be a bit hard to spot, them spikes. Always make sure you've got enough light."	"Speaker=Lola"
+
+"death_enemy_turret_00"	"Don't sound like you'll be able to take cover behind dirt."	"Speaker=Lola"
+"death_enemy_turret_01"	"Try digging them out."	"Speaker=Lola"
+
+"death_enemy_vectron_minion_00"	"Sounds like they're quite aggressive. Might be able to use that against them."	"Speaker=Lola"
+"death_enemy_vectron_minion_01"	"Best stay clear once they start beeping."	"Speaker=Lola"
+"death_enemy_vectron_minion_02"	"You might be able to trow some dynamite at them."	"Speaker=Lola"
+
+"death_barrier_00"	"Harmful light! Who's ever heard of such things?"	"Speaker=Lola"
+
+"death_laser_box_00"	"Might want to bonk them on the head. See what happens."	"Speaker=Lola"
+"death_laser_box_01"	"Sounds like it's best to stay out of their field of vision."	"Speaker=Lola"
+
+# ------ FALLBACK CONVERSATIONS.
+"Dorothy_fallback_01"	"I'll wait here and try to figure a way out."	"Speaker=Dorothy"
+
+"Cranky_fallback_01"	"*Hrm*"	"Speaker=Cranky; The * symbol denotes that the text is a sound and not spoken. E.g. a Sigh sound."
+
+"Cranky_fallback_20"	"*Hrm*"	"Speaker=Cranky"
+"Cranky_fallback_21"	"What'll ye have then?"	"Speaker=Cranky"
+"Cranky_fallback_22"	"Ye break it, ye bought it."	"Speaker=Cranky"
+"Cranky_fallback_23"	"Top of the morning."	"Speaker=Cranky"
+"Cranky_fallback_24"	"Ye buying anything or not?"	"Speaker=Cranky"
+"Cranky_fallback_25"	"Built most of this stuff with me own hands."	"Speaker=Cranky"
+
+"Lola_fallback_01"	"Don't be a stranger now, you hear."	"Speaker=Lola"
+
+"Biff_fallback_00"	"Where's the welcome wagon, pardner?"	"Speaker=Biff"
+"Biff_fallback_01"	"Biff is back! Yihaa!"	"Speaker=Biff"
+"Biff_fallback_02"	"Haven't been back here since I was a young man. Hard times behind us now, though."	"Speaker=Biff"
+"Biff_fallback_03"	"Word is you've brought a bit of a renaissance with you, sonny."	"Speaker=Biff"
+"Biff_fallback_04"	"Biff Beacon goes wherever there's dollars at."	"Speaker=Biff"
+
+"Biff_fallback_20"	"What'll it be, pardner?"	"Speaker=Biff"
+"Biff_fallback_21"	"Low, low prices."	"Speaker=Biff"
+"Biff_fallback_22"	"You won't need to haggle. Everything's already discounted."	"Speaker=Biff"
+"Biff_fallback_23"	"Browse all you like, mister."	"Speaker=Biff"
+"Biff_fallback_24"	"You won't find it no cheaper."	"Speaker=Biff"
+"Biff_fallback_25"	"Who says quality comes at a price?"	"Speaker=Biff"
+
+"Dandy_fallback_00"	"Welcome, dear sir."	"Speaker=Dandy"
+"Dandy_fallback_01"	"I do believe you've been wasting away devoid of proper commercial alternatives."	"Speaker=Dandy"
+"Dandy_fallback_02"	"Not to worry, good fellow."	"Speaker=Dandy"
+"Dandy_fallback_03"	"Looking for impeccable wares and service? \nDandy Alexander is whom you seek."	"Speaker=Dandy"
+"Dandy_fallback_04"	"It's about time someone brought a bit of class to this town."	"Speaker=Dandy"
+"Dandy_fallback_05"	"Do you not agree?"	"Speaker=Dandy"
+
+"Dandy_fallback_20"	"Welcome, good sir."	"Speaker=Dandy"
+"Dandy_fallback_21"	"Take a gander at our quality wares."	"Speaker=Dandy"
+"Dandy_fallback_22"	"Since you're here, in my store, I presume you must have impeccable taste."	"Speaker=Dandy"
+"Dandy_fallback_23"	"Looking for the finer things in life, I gather?"	"Speaker=Dandy"
+"Dandy_fallback_24"	"The true value of an item is never in the cost of construction."	"Speaker=Dandy"
+"Dandy_fallback_25"	"Peruse to your heart's content."	"Speaker=Dandy"
+
+
+# ------ RUSTY ENTERS MINE AND TALKS TO JOE'S CORPSE.
+"Rusty_enter_mine_01"	"*UMPH*"	"Speaker=Rusty"
+"Rusty_enter_mine_02"	"Well, I don't reckon I'll get out the way I got in."	"Speaker=Rusty"
+"Rusty_enter_mine_03"	"Could be part of my uncle's mine, I guess. All it needs is a splash of paint."	"Speaker=Rusty"
+"Rusty_enter_mine_04"	"Better explore it before the rest of my light dwindles."	"Speaker=Rusty"
+
+"Dorothy_in_mine_00"	"Say! What do you think you're doing?"	"Speaker=Dorothy"
+"Dorothy_in_mine_01"	"Your dramatic entrance just caved the roof in."	"Speaker=Dorothy"
+
+"Dorothy_in_mine_03"	"I'm sorry, miss."	"Speaker=Rusty"
+"Dorothy_in_mine_04"	"My uncle sent me the claim to this mine."	"Speaker=Rusty"
+"Dorothy_in_mine_05"	"I was heading to Tumbleton to find out why, when I fell through."	"Speaker=Rusty"
+
+"Dorothy_in_mine_06"	"Oh... \nYou're Joe's nephew?"	"Speaker=Dorothy"
+"Dorothy_in_mine_07"	"He's been gone a while. \nI've been sneaking down here mining what little I can, and..."	"Speaker=Dorothy"
+"Dorothy_in_mine_08"	"I just found him."	"Speaker=Dorothy"
+"Dorothy_in_mine_09"	"I'm sorry..."	"Speaker=Dorothy"
+"Dorothy_in_mine_10"	"You should go see for yourself."	"Speaker=Dorothy"
+"Dorothy_in_mine_11"	"I'll wait here and try to find a way out."	"Speaker=Dorothy"
+
+"dead_miner_01"	"It's been a while uncle. Sorry I didn't make it here before you left us."	"Speaker=Rusty"
+"dead_miner_02"	"You always claimed we were so much alike? \nCan't say I understand why you sent me the claim, though."	"Speaker=Rusty"
+"dead_miner_03"	"I'm no miner."	"Speaker=Rusty"
+"dead_miner_04"	"*Sigh* \nWell, I hate to rob you of your plunder."	"Speaker=Rusty"
+"dead_miner_05"	"If I could just borrow your pickaxe, I might get out of this calaboose."	"Speaker=Rusty"
+
+"Dorothy_in_mine_12"	"See you found a pickaxe. \nYou do look a proper miner with it."	"Speaker=Dorothy"
+"Dorothy_in_mine_13"	"That's good. The lever opening the door out of here got buried when you dropped in."	"Speaker=Dorothy"
+"Dorothy_in_mine_14"	"You'll have to clear out a tunnel below us to get to it."	"Speaker=Dorothy"
+
+"Dorothy_in_mine_15"	"You need to clear a tunnel down to the lever so we can get out of here."	"Speaker=Dorothy"
+
+# ------ DOROTHY TELLS YOU TO OPEN UP THE MINE AGAIN.
+"Pre_Dorothy1_00"	"You handled that mine like a real pro."	"Speaker=Dorothy"
+"Pre_Dorothy1_01"	"Seeing as you're the new owner and all, maybe you should keep it open."	"Speaker=Dorothy"
+"Pre_Dorothy1_02"	"Bring any ore you find back up to me and I'll give you a fair rate for it."	"Speaker=Dorothy"
+"Pre_Dorothy1_03"	"This town sure can use it."	"Speaker=Dorothy"
+"Pre_Dorothy1_04"	"I'm Dorothy by the way."	"Speaker=Dorothy"
+"Pre_Dorothy1_05"	"Now, why don't you try mining some precious stones?"	"Speaker=Dorothy"
+
+"Pre_Dorothy1_20"	"What've you got for me?"	"Speaker=Dorothy"
+"Pre_Dorothy1_21"	"Find anything good?"	"Speaker=Dorothy"
+"Pre_Dorothy1_22"	"Keep mining those valuables."	"Speaker=Dorothy"
+
+"Pre_Cranky1_00"	"Me friends call me Hank, or Cranky... \nYe can call me Mr. McCrank."	"Speaker=Cranky"
+"Pre_Cranky1_01"	"Ye're going to want a better pickaxe."	"Speaker=Cranky"
+"Pre_Cranky1_02"	"Well, we're fresh out of resources. The mine having been closed and all."	"Speaker=Cranky"
+
+"Pre_Cranky1_20"	"If I was to open up shop again..."	"Speaker=Cranky"
+"Pre_Cranky1_21"	"I would need some more resources."	"Speaker=Cranky"
+
+"Pre_Lola1_00"	"Nice to see a new face in town. Especially such a handsome one."	"Speaker=Lola"
+"Pre_Lola1_01"	"Don't get many newcomers. Folk are more likely to move in the other direction."	"Speaker=Lola"
+"Pre_Lola1_02"	"So! You're our new miner."	""
+"Pre_Lola1_03"	"Sorry to see old Joe finally go. He'd not looked well for some time now."	""
+"Pre_Lola1_04"	"You're a quiet fellow, just like him, huh?"	"Speaker=Lola"
+"Pre_Lola1_05"	"You just let me do the talking then."	"Speaker=Lola"
+
+"Pre_Lola1_20"	"Nice to see a new face in town."	"Speaker=Lola"
+
+# ------ YOU CAN NOW UPGRADE YOUR PICKAXE.
+"Pre_Dorothy2_00"	"Looks like you're getting the hang of it."	"Speaker=Dorothy"
+"Pre_Dorothy2_01"	"You should go see my daddy at the upgrade shop."	"Speaker=Dorothy"
+"Pre_Dorothy2_02"	"He'll fix that pickaxe so you can dig even deeper. "	"Speaker=Dorothy"
+"Pre_Dorothy2_03"	"No need to tell him you saw me down there earlier, though."	"Speaker=Dorothy"
+
+"Pre_Dorothy2_20"	"Go talk to my daddy about fixing that pickaxe of yours."	"Speaker=Dorothy"
+
+"Pre_Cranky2_00"	"Now I've got something to work with."	"Speaker=Cranky"
+
+"Pre_Lola2_00"	"So, you're staying put?"	"Speaker=Lola"
+"Pre_Lola2_01"	"That's nice."	"Speaker=Lola"
+
+"Pre_Lola2_20"	"It's good to have someone mining here again."	"Speaker=Lola"
+
+# ------ USE YOUR NEW PICKAXE AND EXPLORE THE FIRST CAVE.
+"conv_Tumbleton_Dorothy1_00"	"That pickaxe should let you take on harder dirt, deeper down."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_01"	"When I was scavenging for ore I found something else too... A cave."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_02"	"You might want to check it out. Joe used to bring all sorts of stuff down there."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_03"	"Be careful, though."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_04"	"Critters have been a bit feisty since around the time he went missing."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy1_20"	"Keeping the mine open will really help this town."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_21"	"This town sure can use some growth."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_22"	"You had a chance to look into that cave I found?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_23"	"What've you got for me?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_24"	"Find anything good?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky1_00"	"So ye're keeping yer uncle's mine open? Dangerous place."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky1_01"	"Lost my leg to a Shiner, while fixing an old tube in them tunnels."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky1_02"	"Guess I could mend it myself but..."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky1_03"	"The cobbler's bairns are aye the worst shod, as we said in the old country."	"Speaker=Cranky; An old Scottish saying meaning: The shoemaker's children are the one's with the worst shoes. This means that if someone does something for a living they are usually quite bad at getting those things done at home."
+"conv_Tumbleton_Cranky1_04"	"Still, we're a mining town. Can't really get along without a mine, now."	"Speaker=Cranky"
+
+# ------ YOU FOUND SOME SPEED BOOTS IN THE CAVE.
+"conv_Tumbleton_Dorothy2_00"	"Dang! What's that on your feet?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_01"	"I've never seen anything quite like that."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_02"	"Did you find that in the cave? You think Joe left it there for you?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_03"	"Maybe there's more down in the mine somewhere?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_04"	"Did you show it to my father? You really should."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy2_20"	"Best exchange rate in town. Well, the only one."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_21"	"You'll find more valuable ore the deeper you get."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_22"	"What've you got for me?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_23"	"Find anything good?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky2_00"	"So, ye found one of Joe's caves, did ye?"	"Speaker=Cranky"
+"conv_Tumbleton_Cranky2_01"	"Don't know what unnatural stuff he was up to down there."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky2_02"	"Cogs and steam, that I get. He meddled with some weird things, he did."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky2_03"	"Sometimes I'd let him stack some of it here in me store. Weird glowing stuff."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky2_04"	"I'd rather seen him store it in the cave he dug deeper down."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola2_00"	"Those are some mighty fine boots you've gotten."	"Speaker=Lola"
+"conv_Tumbleton_Lola2_01"	"Bet you're quick as a greased-in steam-hog with them on."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola2_20"	"Strange looking, but fine boots, indeed."	"Speaker=Lola"
+
+# ------ YOU'VE FOUND THE CHARGE JUMP IN THE SECOND CAVE.
+"conv_Tumbleton_Dorothy3_00"	"Say, you found more of that strange technology."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy3_01"	"Weird how it just fits you like that."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy3_02"	"Like it's made for you."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy3_20"	"Back in the light again?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy3_21"	"Working hard, I see."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy3_22"	"What've you got for me?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy3_23"	"Find anything good?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky3_00"	"Ye went down there anyway? *Hrm*"	"Speaker=Cranky"
+"conv_Tumbleton_Cranky3_01"	"Pigheaded, just like yer uncle. He always went his own way too."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky3_02"	"If I can't dissuade ye, might as well help ye figure some of it out."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky3_03"	"Don't want me daughter having to shoulder the work of another lost miner."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola3_00"	"The short while Joe spent on the surface he'd hang around the bar."	"Speaker=Lola"
+"conv_Tumbleton_Lola3_01"	"Usually by himself. Scribbling away at his notes."	"Speaker=Lola"
+"conv_Tumbleton_Lola3_02"	"I found this old napkin he'd doodled on."	"Speaker=Lola"
+"conv_Tumbleton_Lola3_03"	"Looks sort of like a map, don't it? He's marked something on it too."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola3_20"	"You've gotten a chance to look at whatever's on that map?"	"Speaker=Lola"
+
+# ------ YOU FOUND THE DRILL
+"conv_Tumbleton_Dorothy4_00"	"Whoa! That drill looks really powerful. Enough to break really tough soil."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_01"	"You think that's what Joe wanted you to do?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_02"	"Break through to Old World below the mine."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_03"	"Bet there's riches down there."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_04"	"Nothing but Shiners there. Don't think they've any notion of valuable rock."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_05"	"This could mean a gold rush for Tumbleton."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy4_20"	"Have you broken through to Old World yet?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_21"	"I'll give you a fair price on anything you dig up."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_22"	"Must be all kinds of exciting, that deep down?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_23"	"Them Shiners don't scare us, no sir!"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky4_00"	"Some parts look familiar on this drill; ye'll still need steam."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky4_01"	"Other parts are way beyond what I've seen before. "	"Speaker=Cranky"
+"conv_Tumbleton_Cranky4_02"	"Joe might've gotten his ideas down in Old World I guess."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky4_03"	"He did say Shiners were quite brilliant in ancient times..."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky4_04"	"Before they wrecked the world, that is."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola4_00"	"Never was much for company, old Joe."	"Speaker=Lola"
+"conv_Tumbleton_Lola4_01"	"He spent all his time in the mine the last few years."	"Speaker=Lola"
+"conv_Tumbleton_Lola4_02"	"Never brought much up, though."	"Speaker=Lola"
+"conv_Tumbleton_Lola4_03"	"Like there were things got his attention more than precious rock down there."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola4_20"	"Not an easy man to get close to, that old Joe."	"Speaker=Lola"
+
+# ------ YOU'VE ENTERED Old World
+"conv_Tumbleton_Cranky5_00"	"So ye got into Old World? Dank and treacherous place."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_01"	"Ye cleared out that old pneumatic tube too?"	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_02"	"More reliable than those glowing, watchamacallits."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_03"	"Take care while exploring down there, though."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_04"	"Shiners can be quite dangerous."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_05"	"Not really the best place for a mine."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_06"	"Can't choose where you find a deposit, I guess."	"Speaker=Cranky"
+
+# ------ YOU'VE FOUND THE FIRST UPGRADE IN Old World
+"conv_Tumbleton_Dorothy6_00"	"The more of this stuff you dig up the more certain I get."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_01"	"Your uncle placed it there for you to find."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_02"	"Like a trail of breadcrumbs for you to follow."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_03"	"Getting you ready for something."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy6_20"	"I just knew there was treasure to be found in Old World."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_21"	"Still lots down there to dig up, eh?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_22"	"You're making progress."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_23"	"These new minerals sure will be great for the town's growth."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky6_00"	"There's scarce trace of the Shiners left up here."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky6_01"	"Seeing what humanity looks like nowadays, it's hard to share your uncle's beliefs."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky6_02"	"That the Shiners had part in the birth of the first Steambot."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky6_03"	"If true, what else were they capable of back then?"	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola6_00"	"Haven't seen a Shiner up top since war times."	"Speaker=Lola"
+"conv_Tumbleton_Lola6_01"	"Deranged and dangerous, they are. Thoroughly unpredictable."	"Speaker=Lola"
+"conv_Tumbleton_Lola6_02"	"Not unlike most of my patrons."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola6_20"	"They're not so different from us, those Shiners."	"Speaker=Lola"
+
+"conv_Tumbleton_Biff6_00"	"That strange old miner that dug here before you."	"Speaker=Biff"
+"conv_Tumbleton_Biff6_01"	"He always ordered some strange stuff."	"Speaker=Biff"
+"conv_Tumbleton_Biff6_02"	"Useless things like twisted copper tubes and such nonsense."	"Speaker=Biff"
+
+# ------ YOU'VE FOUND THE SECOND UPGRADE IN Old World
+"conv_Tumbleton_Dorothy7_00"	"You'll be getting to the bottom of Old World soon."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy7_01"	"The end of the trail should be close."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy7_02"	"You see, beneath Old World it'll be way too hot for any Steambot to dig."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy7_20"	"You should hit bottom soon."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy7_21"	"Still at it?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy7_22"	"How far down does Old World stretch, you think?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy7_23"	"Can you feel the heat down there?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky7_00"	"I've been running this shop all me life."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky7_01"	"Technology don't evolve in leaps and bounds."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky7_02"	"It's gradual. One invention enables another."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky7_03"	"Not like the things ye're finding down there."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky7_04"	"Scares me a bit, I'll admit it."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky7_05"	"Not saying they're not useful, though."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola7_00"	"At times old Joe would be down in the mine for weeks."	"Speaker=Lola"
+"conv_Tumbleton_Lola7_01"	"He must've gotten really deep down too."	"Speaker=Lola"
+"conv_Tumbleton_Lola7_02"	"Once in a while we thought he'd stay down there for good."	"Speaker=Lola"
+"conv_Tumbleton_Lola7_03"	"Proved us right in the end, didn't he?"	"Speaker=Lola"
+
+"conv_Tumbleton_Lola7_20"	"It's a sad thing to see Joe gone."	"Speaker=Lola"
+"conv_Tumbleton_Lola7_21"	"Still, I think the mine is where he wanted to end up."	"Speaker=Lola"
+
+"conv_Tumbleton_Biff7_00"	"Preparing for another trip down the tunnels, sonny?"	"Speaker=Biff"
+"conv_Tumbleton_Biff7_01"	"Back before the war some of us boys would sneak down and play games of dare."	"Speaker=Biff"
+"conv_Tumbleton_Biff7_02"	"Some would come back up and tell stories of glowing lights in the darkness."	"Speaker=Biff"
+"conv_Tumbleton_Biff7_03"	"Trying to psych the rest of us out with ghost stories, most likely."	"Speaker=Biff"
+"conv_Tumbleton_Biff7_04"	"You don't strike me as the kind scared of ghosts, though."	"Speaker=Biff"
+
+# ------ YOU'VE FOUND THE LAST UPGRADE IN Old World AND ENTERED VECTRON.
+"conv_Tumbleton_Dorothy8_00"	"What?! The mine goes even deeper?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_01"	"Is that frost on your armor? How is that even possible?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_02"	"Only thing supposed to be down at that depth is molten rock."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_03"	"Please be careful."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_04"	"Something must be cooling the earth down."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_05"	"You really should explore whatever's down there."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy8_20"	"Take care down there."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_21"	"This is highly precious."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_22"	"We'll make great use of this."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_23"	"I don't get it, it should be blistering below."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky8_00"	"I had no idea there was another tube down there."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky8_01"	"Proves yer uncle's been that deep at least."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky8_02"	"Might be, ye'll even find the source of Joe's knowledge down there."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky8_03"	"Ye'll have to tread carefully, though. This is strange stuff."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky8_04"	"Ye've not only opened a way down, ye know."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola8_00"	"You're a lot younger than Joe, and he'd not been all that well."	"Speaker=Lola"
+"conv_Tumbleton_Lola8_01"	"Still, let's hope you're prepared for whatever you'll encounter."	"Speaker=Lola"
+"conv_Tumbleton_Lola8_02"	"Good luck."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola8_20"	"You do seem prepared to face the unknown."	"Speaker=Lola"
+
+"conv_Tumbleton_Biff8_00"	"The deeper you dig the better off we'll all be, I say."	"Speaker=Biff"
+"conv_Tumbleton_Biff8_01"	"Throw caution to the wind, pilgrim, and let that pick fly."	"Speaker=Biff"
+"conv_Tumbleton_Biff8_02"	"Yihaa!"	"Speaker=Biff"
+
+# ------ YOU'VE FOUND THE MINIMAP; YOU'VE BROKEN THROUGH THE FIRST BARRIER.
+"conv_Tumbleton_Dorothy9_00"	"There are things living down there?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy9_01"	"What are they?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy9_02"	"Animals? You think they're smarter than that?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy9_20"	"This is very nice."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy9_21"	"We sure can make use of this new ore."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy9_22"	"This'll fetch a nice price."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy9_23"	"Have you found out anything more about the things living down there?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky9_00"	"This is even weirder than that technology ye found before."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky9_01"	"Not a single thing on this looks familiar. Some strange force driving it."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky9_02"	"The other stuff was just very advanced steam technology."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky9_03"	"This is something different altogether. I can't even figure out what it's supposed to do."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky9_04"	"I think I'll call it... Electricity."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola9_00"	"All these tools you're finding must make digging easier."	"Speaker=Lola"
+"conv_Tumbleton_Lola9_01"	"Just take care of your insides too. A true heart is just as important."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola9_20"	"Take care of that steam-heart."	"Speaker=Lola"
+
+"conv_Tumbleton_Biff9_00"	"Sure are a lot of things unknown about what's down in those depths."	"Speaker=Biff"
+"conv_Tumbleton_Biff9_01"	"Still, it's worth exploring. You found some great stuff so far, pardner."	"Speaker=Biff"
+"conv_Tumbleton_Biff9_02"	"Don't look a gift steam-horse in the mouth, I always say."	"Speaker=Biff; A Steambot version of the saying: Never look a gift horse in the mouth. The meaning is that you should not complain over things you've gotten for free."
+
+"conv_Tumbleton_Dandy9_00"	"Why would a single soul choose to dwell down there?"	"Speaker=Dandy"
+"conv_Tumbleton_Dandy9_01"	"In the dirt and dark."	"Speaker=Dandy"
+"conv_Tumbleton_Dandy9_02"	"I do believe they must all be somewhat simple, do you not agree?"	"Speaker=Dandy"
+
+
+# ------ YOU'VE FOUND THE STATIC DASH. 
+"conv_Tumbleton_Dorothy10_00"	"You're more new parts than old by now."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_01"	"How much more can you fit?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_02"	"I really wonder what Joe had in mind, sending you the deed..."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_03"	"Preparing the caves..."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy10_20"	"You sure look different."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_21"	"Still more to mine down there?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_22"	"Nice haul!"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_23"	"That's very uncommon ore."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky10_00"	"Technology in and of itself is not dangerous."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky10_01"	"How it's used is what defines it."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky10_02"	"That being said, the things down there give me the heebee jeebies."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky10_03"	"If ye don't know how it works, ye can't know the consequences."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola10_00"	"You've changed quite a bit since you first arrived."	"Speaker=Lola"
+"conv_Tumbleton_Lola10_01"	"If all those add-ons are needed to dig this deep, however did Joe manage?"	"Speaker=Lola"
+"conv_Tumbleton_Lola10_02"	"Digging that deep in his condition. No wonder he didn't make it back up."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola10_20"	"You're like a new bot!"	"Speaker=Lola"
+
+"conv_Tumbleton_Biff10_00"	"You remind me of a few people I met out there in the world."	"Speaker=Biff"
+"conv_Tumbleton_Biff10_01"	"I'll tell you, no miner I've ever seen's got this look."	"Speaker=Biff"
+"conv_Tumbleton_Biff10_02"	"More of a soldier air about you, pardner."	"Speaker=Biff"
+
+"conv_Tumbleton_Dandy10_00"	"Smashing look, dear fellow."	"Speaker= Dandy"
+"conv_Tumbleton_Dandy10_01"	"Bold and new."	"Speaker=Dandy"
+"conv_Tumbleton_Dandy10_02"	"Nice to see displacement of the norm in what passes for fashion here."	"Speaker= Dandy"
+
+# ------ DOROTHY SENDS YOU TO DESTROY GENERATORS.
+"conv_Tumbleton_Dorothy11_00"	"That door might well hold what you've come here for."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_01"	"If there are three barriers, there should be three generators, right?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_02"	"You'll need to locate all of them."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_03"	"How about taking a look in the upper layers too?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_04"	"Might be what's been riling the critters so?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy11_20"	"Find those generators yet?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_21"	"You're like a mining machine. Literally."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_22"	"Wonder what's behind that door?"	"Speaker=Dorothy"
+
+
+"conv_Tumbleton_Cranky11_00"	"Ye have no way of knowing what that door blocks."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky11_01"	"Might be Joe wanted ye to open it? That's why he sent ye the deed."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky11_02"	"Could be some horrible power on the other side of it."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola11_00"	"You do have to wonder how Joe did all this on his own."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola11_20"	"How could that old man manage what he did?"	"Speaker=Lola"
+
+"conv_Tumbleton_Biff11_00"	"That door might be the way to unimaginable riches."	"Speaker=Biff"
+"conv_Tumbleton_Biff11_01"	"Minerals pressed into the most fantastic materials."	"Speaker=Biff"
+
+"conv_Tumbleton_Dandy11_00"	"Heavens! Look at that desert flower running the exchange shop."	"Speaker= Dandy"
+"conv_Tumbleton_Dandy11_01"	"A bit unsophisticated perhaps..."	"Speaker=Dandy"
+"conv_Tumbleton_Dandy11_02"	"Though, with cheekplates like that, all she needs is a bit of polish."	"Speaker= Dandy"
+"conv_Tumbleton_Dandy11_03"	"I might be able to finesse this place into proper society after all."	"Speaker= Dandy"
+
+# ------ YOU DESTROYED THE OTHER GENERATORS IN Old World AND ARCHAEA; DOOR IS OPEN.
+"conv_Tumbleton_Dorothy12_00"	"You do look well prepared."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy12_01"	"No reason to wait any longer."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy12_02"	"Go open that door."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy12_20"	"Open that door."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy12_21"	"You'll soon know what your uncle was up to."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky12_00"	"It's your decision now, lad."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky12_01"	"Hope you're ready for whatever's behind that door."	"Speaker=Cranky"
+
+
+# ------ BOSS FIGHT!
+"Rusty_defies_boss01_00"	"*BZZT*"	"Speaker=Nobody"
+"Rusty_defies_boss01_01"	"*BZZZ, BZZZZZZZZZ*"	"Speaker=Nobody"
+"Rusty_defies_boss01_02"	"*BZZT*"	"Speaker=Nobody"
+
+"Rusty_defies_boss01_03"	"WELCOME TO VECTRON... *BZZT*"	"Speaker=Nobody"
+"Rusty_defies_boss01_04"	"RUSTY."	"Speaker=Nobody"
+
+"Rusty_defies_boss01_05"	"..."	"Speaker=Rusty"
+"Rusty_defies_boss01_06"	"Joe?"	"Speaker=Rusty"
+"Rusty_defies_boss01_07"	"You look different."	"Speaker=Rusty"
+
+"Rusty_defies_boss01_08"	"BY STUDYING THESE VOLTBOTS I LEARNED HOW TO SHED MY WEAK SHELL."	"Speaker=Joe"
+"Rusty_defies_boss01_09"	"LIKE THE STEAMBOT, THEY ARE THE CHILDREN OF HUMANITY."	"Speaker=Joe"
+"Rusty_defies_boss01_10"	"THE INGENUITY OF THEIR CONSTRUCTION IS AWE-INSPIRING."	"Speaker=Joe"
+"Rusty_defies_boss01_11"	"THE STEAMBOTS ARE NOT WORTHY HEIRS TO THE SURFACE."	"Speaker=Joe"
+"Rusty_defies_boss01_12"	"NOW THAT YOU HAVE TRAVELED THE SAME PATH AS ME, YOU ARE VOLTBOT TOO."	"Speaker=Joe"
+"Rusty_defies_boss01_13"	"AS SOON AS MY NEW BODY IS COMPLETE... \n*BZZT* WE SHALL RISE!"	"Speaker=Joe"
+
+"Rusty_defies_boss01_14"	"Well, that was... original."	"Speaker=Rusty"
+"Rusty_defies_boss01_15"	"I'm sorry, as long as I'm standing you will never reach the surface."	"Speaker=Rusty"
+
+"Rusty_defies_boss01_16"	"YOUR WEAK STEAMBOT HEART WILL BE YOUR UNDOING."	"Speaker=Joe"
+
+"Rusty_defies_boss01_20"	"*BZZZZZZZZZZT*"	"Speaker=Joe"
+
+# ------ BOSS FIGHT 2!
+"Rusty_defies_boss02_07"	"PART OF JOE RESIDES IN OUR NEW BODY. HE MERGED WITH US FREELY."	"Speaker=Joe"
+"Rusty_defies_boss02_08"	"AND SOON, SO WILL YOU. WE ARE IN NEED OF A TRUE HEART."	"Speaker=Joe"
+"Rusty_defies_boss02_09"	"WE HAVE PREPARED YOU. STRIPPED YOU OF YOUR WEAK STEAMBOT SHELL."	"Speaker=Joe"
+"Rusty_defies_boss02_10"	"YOU ARE ALREADY MORE PART OF US THAN YOU ARE YOURSELF."	"Speaker=Joe"
+"Rusty_defies_boss02_11"	"*BZZT* WE WILL BE INVINCIBLE! THE VOLTBOT WILL RISE AND RULE."	"Speaker=Joe"
+
+"Rusty_defies_boss02_12"	"You've prepared me, that's true. I'm prepared to stop you."	"Speaker=Rusty"
+
+"Rusty_defies_boss02_13"	"THERE IS THAT HEART WE NEED. IF YOU WILL NOT GIVE IT FREELY..."	"Speaker=Joe"
+
+# ------ EPILOGUE
+"conv_Epilogue_00"	"There, it is finished. Behold! My masterpiece."	"Speaker=Dandy"
+
+"conv_Epilogue_01"	"What... I thought it was supposed to be a statue of Rusty."	"Speaker=Lola"
+"conv_Epilogue_02"	"He was the one who saved this town from them demons after all."	"Speaker=Lola"
+"conv_Epilogue_03"	"Not this..."	"Speaker=Lola"
+"conv_Epilogue_04"	"What is this anyway, a scrap metal monkey?"	"Speaker=Lola"
+
+"conv_Epilogue_05"	"*Sigh* Is it not obvious?"	"Speaker=Dandy"
+"conv_Epilogue_06"	"It is the abstraction of a destructible Steambot acquiring godhood."	"Speaker=Dandy"
+
+"conv_Epilogue_07"	"It sort of resembles me poor father... after he was run over by a freight train."	"Speaker=Cranky"
+"conv_Epilogue_07b"	"Bless his soul."	"Speaker=Cranky"
+
+"conv_Epilogue_08"	"My sensibilities for the finer things in life are altogether wasted here."	"Speaker=Dandy"
+"conv_Epilogue_09"	"Without Rusty, this place is exhaustively devoid of class."	"Speaker=Dandy"
+
+"conv_Epilogue_10"	"Why do we even need this monument?"	"Speaker=Dorothy"
+"conv_Epilogue_11"	"We still haven't done a proper search down there."	"Speaker=Dorothy"
+
+"conv_Epilogue_12"	"A month, he's been missing now, honey."	"Speaker=Cranky"
+"conv_Epilogue_13"	"The cataclysm down there destroyed everything beneath Old World."	"Speaker=Cranky"
+"conv_Epilogue_14"	"Nothing left down there but rubble."	"Speaker=Cranky"
+
+"conv_Epilogue_15"	"You should probably focus on the future, girl."	"Speaker=Lola"
+"conv_Epilogue_16"	"Scavenging in those tunnels is no work for a young lady."	"Speaker=Lola"
+
+"conv_Epilogue_17"	"Nothing walked out of that destruction alive, dear."	"Speaker=Cranky"
+
+"conv_Epilogue_18"	"Come on now, people! This girl can't be the only one with some backbone."	"Speaker=Biff"
+"conv_Epilogue_19"	"I miss him too. A close friend, he was."	"Speaker=Biff"
+"conv_Epilogue_20"	"*Sniffle* I remember the first day he walked in to my shop..."	"Speaker=Biff"
+"conv_Epilogue_20b"	"It was on a Tuesday..."	"Speaker=Biff"
+
+"conv_Epilogue_21"	"Pull yourself together, man."	"Speaker=Dandy"
+
+"conv_Epilogue_22"	"He didn't just evaporate, did he?"	"Speaker=Dorothy"
+"conv_Epilogue_23"	"He's still down there, somewhere. I just know it."	"Speaker=Dorothy"
+"conv_Epilogue_24"	"I will keep looking."	"Speaker=Dorothy"
+"conv_Epilogue_25"	"For better or worse, I will find him."	"Speaker=Dorothy"
+
+# ------ POST-3DS RELEASE
+"menu_skip"	"Skip"	"Ask the user whether to skip a dialogue / cutscene."
+"menu_credits"	"Credits"	""
+"menu_options"	"Options"	""
+"menu_buy"	"Buy"	""
+"menu_exit"	"Exit"	""
+"menu_profiles_title"	"Select Profile"	""
+"menu_confirm_quit"	"Are you sure you want to stop digging?"	""
+
+"ui_shoptitle_Cranky"	"Cranky's Upgrades"	"The name of Cranky's shop. Same as the in-game graphics."
+"ui_shoptitle_Jack"	"Discount Custom"	"The name of Biff's shop. Same as the in-game graphics."
+"ui_shoptitle_Dandy"	"Ace Works"	"The name of Dandy's shop. Same as the in-game graphics."
+
+"help_weapon_use"	"Attack"	"Use your main weapon."
+"help_weapon_change"	"Change Weapon"	"Change your main weapon."
+"help_tool_use"	"Use Tool"	"Use your active tool/item"
+"help_tool_change"	"Change Tool"	"Change your active tool/item"
+"help_inventory"	"Inventory"	"Toggle the inventory menu."
+"help_discard"	"Discard"	"Discard the selected item. I.e. throw away."
+
+"menu_back"	"Back"	""
+
+"walk_text"	"Walk"	"Displayed in combination with on-screen graphics explaining how to walk."
+"jump_text"	"Jump"	"Displayed in combination with on-screen graphics explaining how to jump."
+
+"vsync"	"V-sync"	"Displayed in options"
+
+"brightness"	"World Brightness"	"Displayed in options"
+
+"fullscreen"	"Fullscreen"	"Displayed in options"
+
+"bloom"	"Bloom"	"Displayed in options"
+
+"language"	"Language"	"Displayed in options"
+
+"ui_game_over_info_cave"	"You were destroyed."	"Shown in a text box when having died in a cave. Here there's no fee."
+"ui_language"	"Language"	"Button in Options menu leading to a separate screen, for selecting language."
+
+"menu_options_version"	"Version: %1%"	"Displays the current version of the game in the s-e corner in options"
+
+# ------ POST-STEAM RELEASE
+
+"default_controls_text"	"Default controls"	""
+
+"ui_video"	"Graphics"	"Displayed in options"
+"ui_audio"	"Sound"	"Displayed in options"
+"ui_controls"	"Controls"	"Displayed in options"
+"ui_default_controls_confirmation"	"Restoring default controls will remove any custom settings that you have made. Are you sure?"	""
+"ui_bind_controls"	"Press a button to bind it to:\n%1%"	"Shown in a confirmation dialog when the player wants to bind a new button to an action. After the colon is the name of the action."
+
+"controls_actions"	"Actions:"	"Displayed in options, controls"
+"controls_keybindings"	"Buttons:"	"Displayed in options, controls"
+"controls_more_bindings"	"..."	"Displayed in options, controls"
+
+"button_move_up"	"Look up / Climb"	""
+"button_move_down"	"Look down / Climb"	""
+"button_move_left"	"Move left"	""
+"button_move_right"	"Move right"	""
+"button_activate"	"Interact"	""
+"button_jump"	"Jump"	""
+"button_attack"	"Attack"	""
+"button_run"	"Run"	""
+"button_use_tool"	"Use tool"	""
+"button_cycle_weapon"	"Change weapon"	""
+"button_cycle_tool"	"Change tool"	""
+"button_weapon_1"	"Set Pickaxe"	""
+"button_weapon_2"	"Set Drill"	""
+"button_weapon_3"	"Set Steam Punch"	""
+"button_inventory"	"Show inventory"	""
+"button_discard"	"Discard resource"	""
+"button_pause"	"Pause"	""
+"button_skip"	"Skip conversation"	""
+
+"ui_reset_settings"	"Reset settings"	""
+"ui_default_settings_confirmation"	"Are you sure you want to restore all settings to default?\n(Your saves will not be damaged)"	""
+
+
+
+# ---------------- PlayStation
+
+"uiscale"	"Interface Size"	"Displayed in Video options. User Interface / UI / GUI size."
+"uioffset"	"Interface Position"	"Displayed in Video options. User Interface / UI / GUI position offset."
+
+"help_exit"	"Exit"	"Displayed in shop menu. Try to keep short."
+"help_shop_buy"	"Buy"	"Displayed in shop menu. Try to keep short."	
+
+"savedata_broken"	"Save data is broken and will be overwritten."	""
