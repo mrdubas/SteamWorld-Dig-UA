@@ -1,0 +1,950 @@
+"beep!"	"test"	"test"
+
+# ------ Upgrades -------
+"upgrade_armor_1_01"	"Листова Броня"	"Armor decides how long Rusty's life bar is; each level adds another segment to the life bar. With a longer life bar, he can take more damage before he dies. Note that each level should have a 'tougher' name than the one before. "
+"upgrade_armor_1_02"	"Мiцна Броня"	""
+"upgrade_armor_2_01"	"Важка Броня"	""
+"upgrade_armor_2_02"	"Товста Броня"	""
+"upgrade_armor_3_01"	"Суперброня"	""
+"upgrade_armor_3_02"	"Ультраброня"	""
+"upgrade_armor_reduce"	"Зменшення Шкоди"	""
+
+"upgrade_water_1_01"	"Глибокий Бак"	"Tank decides how long Rusty's water bar is; each level adds another segment to the water bar. With a longer water bar, he can use special tools longer. Note that each level should have a 'tougher' name than the one before."
+"upgrade_water_1_02"	"Подвiйний Бак"	""
+"upgrade_water_2_01"	"Великий Бак"	""
+"upgrade_water_2_02"	"Супербак"	""
+"upgrade_water_3_01"	"Неосяжний Бак"	""
+"upgrade_water_3_02"	"Бездонний Бак"	""
+"upgrade_water_process"	"Гiдроiзоляцiя"	""
+
+"upgrade_light_1_01"	"Вугiльний Лiхтар"	"Lantern decides how much time Rusty can spend in the mine before his light dwindles; each level adds another 60 seconds of light. Note that each level should have a 'tougher' name than the one before."
+"upgrade_light_2_01"	"Масляний Лiхтар"	""
+"upgrade_light_3_01"	"Плазмовий Лiхтар"	""
+
+"upgrade_pouch_1_01"	"Середнiй Мiшечок"	"Pouch upgrades decide how many slots Rusty can use in his inventory to store ore he finds; each level opens another another slot. Note that each level should have a name denoting bigger size than the one before it."
+"upgrade_pouch_1_02"	"Великий Мiшечок"	""
+"upgrade_pouch_1_03"	"Бiльший Мiшечок"	""
+"upgrade_pouch_2_01"	"Гiгантський Мiшечок"	""
+"upgrade_pouch_2_02"	"Величезний Мiшок"	""
+"upgrade_pouch_3_01"	"Грандiозний Мiшок"	""
+
+"upgrade_enable_pickaxe"	"Стара Кирка"	""
+"upgrade_pickaxe_pre"	"Гостра Кирка"	"Rusty's first and most basic tool. Can be upgraded according to the below. Each upgrade decreases the number of hits you need to break stone. Note that each level should have a 'tougher' name than the one before."
+"upgrade_pickaxe_1_01"	"Мiдна Кирка"	""
+"upgrade_pickaxe_1_02"	"Бронзова Кирка"	""
+"upgrade_pickaxe_1_03"	"Залiзна Кирка"	""
+"upgrade_pickaxe_1_04"	"Стальна Кирка"	""
+"upgrade_pickaxe_2_01"	"Вольфрамова Кирка"	""
+"upgrade_pickaxe_2_02"	"Срiбляна Кирка"	""
+"upgrade_pickaxe_2_03"	"Золота Кирка"	""
+"upgrade_pickaxe_2_04"	"Платинова Кирка"	""
+"upgrade_pickaxe_3_01"	"Гранатова Кирка"	""
+"upgrade_pickaxe_3_02"	"Смарагдова Кирка"	""
+"upgrade_pickaxe_3_03"	"Рубiнова Кирка"	""
+"upgrade_pickaxe_3_04"	"Дiамантова Кирка"	""
+"upgrade_pickaxe_speed_1"	"Швидка Кирка"	"Increases the number of times Rusty can swing his pickaxe during a given amount of time. A one time upgrade."
+"upgrade_pickaxe_damage_1"	"Руйнiвна Кирка"	"Increases the amount of damage Rusty's pickaxe inflicts upon enemies. First out of two one-time upgrades"
+
+"upgrade_drill_1_01"	"Майстербур"	"Increases the damage Rusty's drill inflicts on dirt tiles. Each name should sound cooler than the one before it."
+"upgrade_drill_1_02"	"Бур-о-трон"	""
+"upgrade_drill_2_01"	"Ультрабур"	""
+"upgrade_drill_2_02"	"Гiпербур"	""
+"upgrade_drill_efficiency"	"Удосконалена Гiдравлiка"	""
+
+"upgrade_punch_1_01"	"Сильний Удар"	"Punch upgrades increase the damage Rusty's steam punch inflicts on dirt tiles and enemies. Each name should sound cooler than the one before it."
+"upgrade_punch_1_02"	"Потужний Удар"	""
+"upgrade_punch_1_03"	"Нокаутуючий Удар"	""
+"upgrade_punch_speed"	"Гiдравлiчна Рiдина"	""
+
+"upgrade_dynamite"	"Динамiт"	""
+"upgrade_ladder"	"Драбина"	"Stackable ladders."
+"upgrade_lamp"	"Лампа"	"Placeable lamps to light up the mine."
+"upgrade_teleporter"	"Телепорт"	""
+
+"upgrade_enable_run"	"Швидкiснi Чоботи"	"Enables Rusty to run fast enough to traverse over sink stones and will let hit jump farther and higher."
+"upgrade_enable_charge_jump"	"Паровий Стрибок"	"Will enable Rusty to boost his jump. Drains water reserves when used."
+"upgrade_enable_dynamite"	"Динамiт"	""
+"upgrade_enable_drill"	"Бур"	"Enables Rusty to drill through a special type of rock not susceptible to other tool. Drains water when used."
+"upgrade_enable_punch"	"Паровий Удар"	"Enables Rusty to punch through a row of dirt. Force depends on how long you press to load the tool. Drains water when used."
+"upgrade_enable_jump_double"	"Подвiйний Стрибок"	"Enables Rusty to make a second jump while in the air."
+"upgrade_fall_dampeners"	"Амортизатори Падiння"	"Enables Rusty to survive any fall."
+"upgrade_static_dash"	"Статичний Ривок"	""
+"upgrade_jump_double"	"Подвiйний Стрибок"	""
+"upgrade_minimap_resources"	"Детектор Мiнералiв"	"Will make resources visible on the mini map."
+"upgrade_chargejump_1"	"Генератор тиску"	""
+"upgrade_locked"	"Заблоковано"	""
+
+# ------ Upgrades Desc -------
+"upgrade_armor_1_01_desc"	"+1 максимального здоровья. \nЯ додам кiлька металевих пластин до твоеï бронi. Зроблю ïï трохи мiцнiшою."	"In-store descriptions for armor upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_armor_1_02_desc"	"+1 максимального здоровья. \nТрохи зварювання повинно допомогти краще з'еднати твоï частини бронi."	""
+"upgrade_armor_2_01_desc"	"+1 максимального здоровья. \nЯ можу отримати додатковий захист вiд цiеï бронi, загартувавши метал, друже."	""
+"upgrade_armor_2_02_desc"	"+1 максимального здоровья. \nПокривши броню металом високоï якостi, я можу зробити ïï дiйсно мiцною."	""
+"upgrade_armor_3_01_desc"	"+1 максимального здоровья. \nЦя броня виготовлена з металу найвищоï якостi."	""
+"upgrade_armor_3_02_desc"	"+1 максимального здоровья. \nМетал кували i складали шар за шаром, поки вiн не став досконало мiцним."	""
+"upgrade_armor_reduce_1_desc"	"25% стiйкостi до пошкоджень. \nЗмiнивши кути своеï бронi, ти не даси ворогам влучити як слiд."	""
+
+"upgrade_water_1_01_desc"	"+1 максимума води. \nМожу трохи розширити бак для води."	"In-store descriptions for water tank upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_water_1_02_desc"	"+1 максимума води. \nЯ думаю, я мiг би додати ще один бак, поруч iз тим, що в тебе вже е."	""
+"upgrade_water_2_01_desc"	"+1 максимума води. \nСтарий бак доведеться зняти, але я впевнений, що ми зможемо поставити туди бiльший."	""
+"upgrade_water_2_02_desc"	"+1 максимума води. \nБiльше завжди краще. Треба лише трохи перепланувати простiр."	""
+"upgrade_water_3_01_desc"	"+1 максимума води. \nЯ не маю точних даних щодо розмiрiв. Схоже на щось безмежне, чи не так?"	""
+"upgrade_water_3_02_desc"	"+1 максимума води. \nЕхо... ехо... ехо... Можливо, десь там внизу таки е дно."	""
+"upgrade_water_process_1_desc"	"+50% води з басейнiв. \nСистема ущiльнення, що не дасть втратити жодноï краплi знайденоï води."	""
+
+"upgrade_light_1_01_desc"	"+60 секунд тривалостi свiтла. \nЯкщо замiнити у твоïй печi дрова на вугiлля, вона працюватиме трiшки довше."	"In-store descriptions for lantern upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_light_2_01_desc"	"+60 секунд тривалостi свiтла. \nНафта! Це шлях у майбутне, синку."	""
+"upgrade_light_3_01_desc"	"+60 секунд тривалостi свiтла. \nПередовi здобутки фiзики. Вони зроблять тебе таким сяючим, як зiрка на небi."	""
+
+"upgrade_pouch_1_01_desc"	"+1 слот в iнвентарi. \nВам знадобиться бiльша сумка, якщо ви хочете принести бiльший улов."	"In-store descriptions for pouch upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_pouch_1_02_desc"	"+1 слот в iнвентарi. \nТобi просто потрiбно докласти зусиль, i ти зможеш нести цю сумку."	""
+"upgrade_pouch_1_03_desc"	"+1 слот в iнвентарi. \nЦе найбiльший мiшечок, який я можу виготовити самостiйно."	""
+"upgrade_pouch_2_01_desc"	"+1 слот в iнвентарi. \nПросторий, як дилiжанс."	""
+"upgrade_pouch_2_02_desc"	"+1 слот в iнвентарi. \nТканина цього мiшка е надзвичайно еластичною. Клас на всi сто!"	""
+"upgrade_pouch_3_01_desc"	"+1 слот в iнвентарi. \nПотрiйна прошивка з подвiйною пiдкладкою - витримае навiть найважчий вантаж!"	""
+
+"upgrade_pickaxe_pre_desc"	"Я заточу для тебе цю кирку. З нею ти зможеш копати твердiший грунт."	"In-store descriptions for pickaxe upgrades. The instances with the suffix pre or _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_pickaxe_1_01_desc"	"+2 пошкодження грунту. \nПринаймнi, мiцнiша за ту, що у тебе е."	""
+"upgrade_pickaxe_1_02_desc"	"+2 пошкодження грунту. \nДодавання трохи олова до цього леза повинно його змiцнити."	""
+"upgrade_pickaxe_1_03_desc"	"+2 пошкодження грунту. \nЦе метал найвищоï якостi. Гарний i чистий."	""
+"upgrade_pickaxe_1_04_desc"	"+2 пошкодження грунту. \nЯ загартую твое лезо, i тобi буде легше копати."	""
+"upgrade_pickaxe_2_01_desc"	"+2 пошкодження грунту. \nМiцна кирка для такого вiдчайдуха, як ти."	""
+"upgrade_pickaxe_2_02_desc"	"+2 пошкодження грунту. \nРiдке срiбне ядро збiльшить силу твоïх замахiв."	""
+"upgrade_pickaxe_2_03_desc"	"+2 пошкодження грунту. \nПокращи ядро до чистого золота - i замахи стануть ще потужнiшими."	""
+"upgrade_pickaxe_2_04_desc"	"+2 пошкодження грунту. \nМiцна - це слово, яке найкраще пiдходить для опису цiеï кирки."	""
+"upgrade_pickaxe_3_01_desc"	"+2 пошкодження грунту. \nГостра i мiцна. А ще вона доступна у рiзних кольорах."	""
+"upgrade_pickaxe_3_02_desc"	"+2 пошкодження грунту. \nЗавжди можна пiдвищити рiвень твердостi."	""
+"upgrade_pickaxe_3_03_desc"	"+2 пошкодження грунту. \nВисока вартiсть тут обумовлена не тiльки гарним кольором"	""
+"upgrade_pickaxe_3_04_desc"	"+2 пошкодження грунту. \nНайтвердiша з найтвердiших. Краса - це просто приемний додаток."	""
+"upgrade_pickaxe_speed_1_desc"	"+20% швидкостi кирки. \nАеродинамiка, друже! Це покращення дозволить кирцi розрiзати повiтря, як масло."	"In-store description for the speed upgrade to the pickaxe. Sold by Biff."
+"upgrade_pickaxe_damage_1_desc"	"+1 пошкодження ворогам. \nХочеш обробити кiнчик кирки цим? Ворогам це не сподобаеться."	"In-store description for enemy damage upgrade for the pickaxe. Sold by Cranky."
+
+"upgrade_drill_1_01_desc"	"+4 пошкодження грунту. \nМайстербур 3000 - головка зi спецiальними жолобками, що полегшують бурiння твердого грунту."	"In-store descriptions for drill upgrades. The instances with the suffix _1 are sold by Biff; _2 by Dandy."
+"upgrade_drill_1_02_desc"	"+4 пошкодження грунту. \nБур-о-трон це найновiша i найкраща технологiя у сферi бурових головок."	""
+"upgrade_drill_2_01_desc"	"+4 пошкодження грунту. \nУльтрабур! Не погоджуйся на менше"	""
+"upgrade_drill_2_02_desc"	"+4 пошкодження грунту. \nГiпербур без жодних проблем просвердлить платину, iнкрустовану дiамантами."	""
+"upgrade_drill_efficiency_1_desc"	"-33% витрати води при свердлiннi. \nЦе зменшить тертя, тому ти витрачатимеш менше води."	"Drill will consume only half as much water as before. Sold by Biff."
+
+"upgrade_punch_1_01_desc"	"+2 пошкодження грунту, +1 ворогам. \nЦi каменi навiть не зрозумiють, що ïх вдарило. \nУ коханнi та гiрничiй справi всi засоби хорошi."	"In-store descriptions for steam punch upgrades. Sold by Dandy."
+"upgrade_punch_1_02_desc"	"+2 пошкодження грунту, +1 ворогам. \nТепер з бiльш ефективним накопиченням сили."	""
+"upgrade_punch_1_03_desc"	"+2 пошкодження грунту, +1 ворогам. \nВи не знайдете бiльш кращого вдосконалення з цього боку Рiо-Гранде."	""
+"upgrade_punch_speed_1_desc"	"+50% швидкостi заряджання Парового Удару. \nЗавдяки правильному змащенню ви зможете збiльшити продуктивнiсть."	"Decreases the charge time for the steam punch. Sold by Dandy."
+
+"upgrade_dynamite_desc"	"Проста штука - кидаеш у те, що хочеш рознести на друзки. Головне - сам пiд вибух не потрап."	"In-store description of dynamite. Sold by Cranky."
+"upgrade_ladder_desc"	"Практична рiч, яку варто мати при собi. Драбини можна складати одна на одну, щоб вибратися зi складних ситуацiй!"	"In-store description of ladder. Sold by Cranky."
+"upgrade_lamp_desc"	"Можна освiтити потрiбне темне мiсце за допомогою розмiщуваних лiхтарiв."	"In-store description of lamp. Sold by Cranky."
+"upgrade_teleporter_desc"	"Дивакуватi пристроï Джо. Вiн використовував ïх, щоб створювати короткi шляхи назад до Тамблтона. Можеш i сам спробувати."	"In-store description of teleporter. Sold by Cranky."
+"upgrade_chargejump_desc"	"-50% витрати води на Паровий Стрибок. \nЗ цими додатковими камерами тиску твiй Паровий Стрибок стане набагато ефективнiшим."	"In-store description of steam jump upgrade. Sold by Cranky."
+
+"restore_health"	"Здоров'я"	"Will fill up your health bar to max."
+"restore_health_desc"	"Дасть тобi гарний заряд бадьоростi й повнiстю вiдновить здоров’я."	"Cranky's in-store description of the health fill up."
+
+"buy_failed_too_expensive_Cranky"	"Вибач, ти не можеш собi цього дозволити."	"Speaker=Cranky"
+"buy_failed_full_Cranky"	"Цього вже достатньо."	"Speaker=Cranky"
+"buy_failed_locked_Cranky"	"Над цим ще трохи доведеться попрацювати."	"Speaker=Cranky"
+
+"buy_failed_too_expensive_Jack"	"Бiльшу знижку дати вже не можу, друже."	"Speaker=Biff"
+"buy_failed_full_Jack"	"Цього в тебе вже вдосталь."	"Speaker=Biff"
+"buy_failed_locked_Jack"	"Трохи вище твого рiвня. Iнша крамниця може мати щось простiше для тебе."	"Speaker=Biff"
+
+"buy_failed_too_expensive_Dandy"	"Це справедлива цiна, я вважаю."	"Speaker=Dandy"
+"buy_failed_full_Dandy"	"О, я нiколи не намагатимуся продати вам бiльше, нiж вам потрiбно, сер."	"Speaker=Dandy"
+"buy_failed_locked_Dandy"	"Вибач, це не сумiсно з твоею версiею. Ти можеш знайти щось бiльш пiдходяще в iнших магазинах."	"Speaker=Dandy"
+
+#------- Character names -------
+"character_unknown"	"???"	"Should not be localized."
+"character_rusty"	"Растi"	"Should not be localized."
+"character_dorothy"	"Доротi"	"Should not be localized."
+"character_cranky"	"Буркотун"	"Should not be localized."
+"character_lola"	"Лола"	"Should not be localized."
+"character_jack"	"Бiфф"	"Should not be localized."
+"character_dandy"	"Дендi"	"Should not be localized."
+"character_hola"	"Хола"	"Should not be localized."
+"character_joe"	"Вольтбот"	"Should not be localized."
+
+#------- Banner text -------
+"banner_pickup_header"	"Отримано Предмет"	"Text displayed in a banner when Rusty picks up his first pickaxe."
+"banner_upgrade_header"	"Iнтегрована Технологiя"	"Text displayed in a banner when Rusty finds new technology upgrades down in caves."
+"banner_bought_header"	"Покращення Придбано"	"Text displayed in a banner when an upgrade is bought."
+"banner_bought_text"	"%1% Рiвень %2%"	"%1% is upgrade name, %2% is rank (as 2/3); only the word Rank needs to be localized"
+"banner_upgrade_item_header"	"Предмет Розблоковано"	"Text displayed in a banner when a new item is unlocked in a store."
+"banner_level_header"	"Нова Область"	"Text displayed in a banner when Rusty first arrives to an area."
+"banner_level_archaea"	"Архея"	"Should not be localized"
+"banner_level_tumbleton"	"Тамблтон"	"Should not be localized"
+"banner_level_old_world"	"Старий Свiт"	"Should not be localized"
+"banner_level_vectron"	"Вектрон"	"Should not be localized"
+"banner_sell_text"	"Отримано $%1%!"	"%1% is money amount gained from selling your inventory. Only the word Got should be localized."
+"banner_upgrade_unlocked"	"Покращення Розблоковано!"	"Text displayed in a banner when a new upgrade is unlocked."
+"banner_shop_unlocked"	"Тамблтон Зростае!"	"Text displayed in a banner when a new store is available in town."
+"expbar_header"	"Очки Скарбiв:"	"Text displayed as headline in the UI for treasure points. This UI pops out when selling resources as they are converted to treasure points that Rusty collects to unlock new items and shops."
+"banner_new_quest_header"	"Нове Завдання"	"Text displayed in a banner when a new undefined quest is set to in-progress."
+"exp_bar_level"	"Рiвень: "	"Displayed in the treasure points UI in fornt of the amount indicator of treasure points gathered. "
+"exp_bar_next_level"	"Наступний: "	"Text in the Treasure poits UI denoting how many points to next level, when new items will be unlocked."
+"found_secret"	"Секретна Зона!"	"Displayed in a banner when Rusty finds a secret area in the mine."
+
+# ------ Quest Banners
+"banner_quest_return"	"Повернiсться в Мiсто"	"Displayed in a banner when the quest is to return to town."
+"banner_quest_pickaxe"	"Знайдiть дядька Джо"	"Displayed in a banner when Rusty gets a specific quest to go see the dead body of his uncle Joe."
+"banner_quest_lever"	"Знайдiть Важiль"	"Displayed in a banner when Rusty gets a specific quest to go pull a lever to open a door."
+"banner_quest_mining"	"Добудьте Руду"	"Displayed in a banner when Rusty gets a specific quest to go and try mining ore for the first time."
+"banner_quest_sell"	"Продайте Здобич"	"Displayed in a banner when Rusty gets a specific quest to go sell the ore he found on the above quest."
+"banner_quest_explore"	"Дослiдiть Печеру"	"Displayed in a banner when Rusty gets a specific quest to go explore a cave."
+"banner_quest_explore2"	"Дослiдiть Глибини"	"Displayed in a banner when Rusty has finished the last quest of a world and should enter the next one; before he knows the name of that world."
+"banner_quest_explore3"	"Продовжуйте Дослiджувати"	"Displayed in a banner when Rusty has found an upgrade in Old World but is not forced to go up to town to get his next quest."
+"banner_quest_oldworld"	"Дослiдiть Старий Свiт"	"Displayed in a banner when Rusty gets a quest to explore old world."
+"banner_quest_vectron"	"Дослiдiть Вектрон"	"Displayed in a banner when Rusty gets a quest to explore Vectron"
+"banner_quest_boss"	"Атакуйте"	"Displayed in a banner when Rusty is able to damage the boss in the final show down."
+"banner_quest_bossdoor"	"Увiйдiть у Дверi"	"Displayed in a banner when Rusty is able to enter the final boss room."
+"banner_quest_generator"	"Знищiть Генератор"	"Displayed in a banner when Rusty should go and destroy the generators."
+
+#------- Menu items -------
+"ui_back"	"Назад"	"Displayed on a button that will take you back in the UI."
+"ui_self_destruct"	"Самознищення"	"Displayed on a button that will kill Rusty so he will re-spawn in town. Used if player gets stuck."
+"ui_options"	"Опцiï"	"Displayed on a button that will take you to the Options menu."
+"effectsvolume"	"Звуковi Ефекти"	"Heading over the slider in the options menu."
+"musicvolume"	"Гучнiсть Музики"	"Heading over the slider in the options menu."
+"ui_restart_demo"	"Перезапустити Демоверсiю"	"Only shown in the Demo Mode, instead of ui_main_menu."
+"ui_confirm_restart_demo"	"Ви впевненi, що хочете перезапустити?"	"Is displayed to warn the player of the consequences of restarting the demo."
+"ui_main_menu"	"Головне Меню"	"Displayed on a button that will take you to the main menu."
+"ui_continue"	"Продовжити"	"Displayed on a button that will take you to the next step in a given circumstance."
+"ui_paused"	"Пауза"	"Displayed when the game is paused."
+"ui_game_over_info"	"Ви були знищенi.\nВартiсть ремонту: $%1% (50%%)"	"Shown in a text box when having died, informs the player about there being a fee for being reconstructed."
+"ui_game_over_continue"	"Продовжити"	"Is displayed on a button that will let you play again after Rusty dies. The A: signifies which button to press if not using the touch screen."
+"ui_game_over_try_again"	"Спробувати Знову"	"Is displayed on a button that will let you play again after Rusty dies in a level, pressing it restarts the level. The A: signifies which button to press if not using the touch screen."
+"ui_confirm_self_destruct"	"Ви впевненi, що хочете самознищитися i реконструюватися в Тамблетонi за певну плату?"	"Is displayed to warn the player of the consequences of using the selfdestruct button in the mine."
+"ui_confirm_self_destruct_cave"	"Ви впевненi, що хочете самознищитися i перезапустити рiвень?"	"Is displayed to warn the player of the consequences of using the selfdestruct button in a cave."
+"ui_confirm_main_menu"	"Ви впевненi, що хочете вийти? Незбережений прогрес буде втрачено."	"Is displayed to warn the player of the consequences of quitting the game."
+"ui_confirm_buy_upgrade"	"Ви хочете купити %1%?\nГотiвки: %2%, Сфер: %3%"	"%1% is name of upgrade, %2% is cost in Cash, %3% is cost in orbs"
+"ui_saved_game"	"Гру Збережено"	"On screen text when the game auto saves."
+"ui_press_x_again_to_skip_conversation"	"Натиснiть X ще раз, щоб пропустити дiалог."	"Tells the player that hitting the X button one more time will skip a dialogue in progress."
+"ui_conversation_name_separator"	": "	"Separator between name of character and the text they're saying. No additional spaces added."
+"ui_conversation_ellipsis_start"	"... "	"Added at the start of text that continues from a previous page. No additional spaces added."
+"ui_conversation_ellipsis_end"	" ..."	"Added at the end of text that will continue on the next page. No additional spaces added."
+"ui_exitshop"	"Вихiд"	"Displayed on a button that makes you leave the shop UI."
+"ui_buyitem"	"Купити"	"Displayed on a button that makes you buy an item in the shop UI."
+"menu_slot_0_number"	"Слот A"	"First slot of saved games in the start menu."
+"menu_slot_1_number"	"Слот Б"	"second slot."
+"menu_slot_2_number"	"Слот В"	"third slot."
+"menu_play"	"Грати"	"Displayed on a button that confirms the save game slot selected to be played."
+"menu_start"	"Почати"	"Displayed on a button that starts the game once it has been opened from the 3DS menu."
+"menu_press_x_to_skip"	"Натиснiть X щоб пропустити."	"tells the player that hitting the X button one more time will skip though a menu"
+"message_yes"	"Так"	"Displayed on a confirm button"
+"message_no"	"Нi"	"Displayed on a discard button"
+"message_question"	"Ви впевненi, що хочете видалити цей слот?"	"An extra warning for players hitting the erase button."
+
+#------- Stats screen ------
+"menu_stats_title"	"~Статистика Завершення~"	"Title showed in stats screen (lower screen during end game credits), should fit on one line"
+"menu_stat_time"	"Час:"	"As in how long it took to finish the game"
+"menu_stat_gold"	"Всього Готiвки:"	"As in total cash collected during play through"
+"menu_stat_orbs"	"Всього Сфер:"	"As in total orbs collected during play through"
+"menu_stat_deaths"	"Смертей:"	"As in total times died during play through"
+
+#------- Inventory ------
+"inventory_no_selection"	"Слот не вибрано"	""
+"inventory_slot_locked"	"Слот заблоковано"	""
+"inventory_slot_empty"	"Слот порожнiй"	""
+"inventory_slot_format"	"%1%: $%2% (Всього: $%3%)"	"%1% will be item name, %2% will be item value, %3% will be total value of stack"
+"inventory_slot_format_gem"	"%1%: $%2%"	"%1% will be item name, %2% will be item value. Used for gems, since they cannot stack"
+"inventory_haul"	"Загальна вартiсть:"	""
+"inventory_depth"	"Глибина:"	""
+
+#------- Resources -----
+
+"resource_ore_trashium"	"Смiттерiум"	""
+"resource_ore_copper"	"Мiдь"	""
+"resource_ore_ironium"	"Залiзiй"	""
+"resource_ore_silver"	"Срiбло"	""
+"resource_ore_dolomite"	"Доломiт"	""
+"resource_ore_bronzite"	"Бронзит"	""
+"resource_ore_chocolotite"	"Шоколатит"	""
+"resource_ore_galena"	"Галенит"	""
+"resource_ore_gold"	"Золото"	""
+"resource_ore_biotite"	"Бiотит"	""
+"resource_ore_obsidian"	"Обсидiан"	""
+"resource_ore_lazurite"	"Лазурит"	""
+"resource_ore_uranium"	"Уран"	""
+"resource_ore_beryllium"	"Берилiй"	""
+"resource_ore_red_gold"	"Червоне Золото"	""
+"resource_ore_purpletite"	"Пурпулетит"	""
+"resource_ore_ambrium"	"Бурштинiй"	""
+"resource_ore_meteorrock"	"Метеоритна Руда"	""
+"resource_ore_unobtanium"	"Нездобутiй"	""
+"resource_ore_gravitonium"	"Гравiтонiй"	""
+"resource_ore_darkmatter"	"Темна Матерiя"	""
+
+"resource_crystal_citrine"	"Цитрин"	""
+"resource_crystal_quartz"	"Кварц"	""
+"resource_crystal_amethyst"	"Аметист"	""
+"resource_crystal_avenyurine"	"Авантюрин"	""
+"resource_gem_zoisite"	"Зоiсiй"	""
+"resource_gem_topaz"	"Топаз"	""
+"resource_gem_emerald"	"Смарагд"	""
+"resource_gem_ruby"	"Рубiн"	""
+"resource_gem_diamond"	"Дiамант"	""
+
+"resource_coin"	"Монета"	""
+
+#------- World text -------
+"inventory_full"	"Немае Мiсця!"	"An on screen text displayed when close to a resource while having no more room in the inventory pouch."
+"buildings_max"	"Забагато!"	""
+"buildings_out_of_stock"	"Скiнчилось!"	""
+"buildings_not_here"	"Не Тут!"	""
+"lamps_too_close"	"Занадто Близько!"	"An on screen text displayed when trying to place lamps too close to each other."
+"light_time_depleted"	"Потрiбне Свiтло..."	"An on screen text displayed when light is completely depleted."
+"resource_pickup"	"%1% ($%2%)"	"%1% is resource name, %2% is value; controlled by other text so does not have to be localized."
+"need_water"	"Потрiбна Вода..."	"An on screen text displayed when trying to use tools that consume water when water supply is depleted."
+
+# ------ Conversation response buttons
+"next"	"Далi"	"Displayed on a button that will skip to the next part of a dialogue in progress."
+
+# ------ Indicator text
+"dig_text"	"Копати"	"Displayed in combination with on-screen graphics explaining how to dig."
+"run_text"	"Бiгти"	"Displayed in combination with on-screen graphics explaining how to run."
+"runjump_text"	"Бiгти + Стрибати"	"Displayed in combination with on-screen graphics explaining how to run-jump."
+"chargejump_text"	"Паровий Стрибок"	"Displayed in combination with on-screen graphics explaining how to charge jump."
+"drill_text"	"Бур"	"Displayed in combination with on-screen graphics explaining how to use the drill."
+"toggle_kit_text"	"Змiнити Обладнання"	"Displayed in combination with on-screen graphics explaining how to switch items in use."
+"walljump_text"	"Стрибок по стiнi"	"Displayed in combination with on-screen graphics explaining how to jump up along walls."
+"doublejump_text"	"Статичний Ривок"	"Displayed in combination with on-screen graphics explaining how to use the double jump upgrade."
+
+# ------ DEATH DIALOGUE.
+"death_fallback_00"	"*Ой*, *йой*, *йой*."	"Speaker=Lola; This is an approximation of the smacking sound one makes to show that someone has done something wrong. All death dialogue is used to give tips on how to better handle, whatever killed you, the next time you encounter it."
+"death_fallback_01"	"Тобi справдi варто бути обережнiшим, чуеш?"	"Speaker=Lola"
+
+"death_first_00"	"Мабуть, не завжди все йде так, як ти плануеш."	"Speaker=Lola"
+"death_first_01"	"Буркотуну вдалося зiбрати тебе до купи."	"Speaker=Lola"
+"death_first_02"	"Довелося замовляти новi деталi i все iнше."	"Speaker=Lola"
+"death_first_03"	"Недешево обiйшлося. Вiн взяв з тебе невелику плату за збiрку."	"Speaker=Lola"
+
+"death_crush_00"	"Обережнiше копай, тигре."	"Speaker=Lola"
+"death_crush_01"	"У темрявi важко помiтити небезпеку."	"Speaker=Lola"
+"death_crush_02"	"Повертайся на поверхню, щоб знову поповнити свiй запас свiтла."	"Speaker=Lola"
+"death_crush_03"	"Цi блоки розчавлять все на своему шляху."	"Speaker=Lola"
+"death_crush_04"	"Дивися пiд ноги."	"Speaker=Lola"
+
+"death_fall_00"	"Нi в якому разi не стрибай з висоти. Ковзай по стiнах, щоб не розбитися."	"Speaker=Lola"
+"death_fall_01"	"Ти можеш впасти лише з невеликоï висоти, щоб не зазнати ушкоджень."	"Speaker=Lola"
+"death_fall_02"	"Якщо ти там зламаешся, ти зможеш повернутися пiзнiше, щоб забрати те, що загубив."	"Speaker=Lola"
+"death_fall_03"	"Завжди корисно поповнити запаси здоров'я перед тим, як спуститися в темряву."	"Speaker=Lola"
+
+"death_suicide_00"	"Якщо не в змозi забрати все, що видобув, обов'язково повернись i забери це пiзнiше."	"Speaker=Lola"
+"death_suicide_01"	"Якщо застряг, пошукай воду. Це може допомогти тобi вибратися."	"Speaker=Lola"
+"death_suicide_02"	"Деякi з набутих нових навичок дозволять тобi повернутися неушкодженим."	"Speaker=Lola"
+"death_suicide_03"	"Iнодi варто копати вниз, щоб повернутися нагору."	"Speaker=Lola"
+"death_suicide_04"	"Якщо грунт став надто твердим, можливо, слiд удосконалити кирку."	"Speaker=Lola"
+"death_suicide_05"	"Ти можеш дотягнутися до протилежноï стiнки у вертикальному тунелi, щоб прокласти собi горизонтальний шлях."	"Speaker=Lola"
+
+"death_enemy_acidblock_00"	"Спробуй пiдкопувати небезпечнi блоки з рiзних бокiв."	"Speaker=Lola"
+"death_enemy_acidblock_01"	"Якщо хочеш пройти пiд кислотними краплями, потрiбно ретельно вибирати момент."	"Speaker=Lola"
+"death_enemy_acidblock_02"	"Деякi речовини можуть пропалювати як грунт так i твою броню."	"Speaker=Lola"
+"death_enemy_acidblock_03"	"Кислоти завдають шкоди не тiльки тобi, а й ворогам."	"Speaker=Lola"
+
+"death_enemy_ACID_POOL_00"	"Вороги постраждають вiд цього так само, як i ти."	"Speaker=Lola"
+"death_enemy_ACID_POOL_01"	"Ти можеш ненадовго зануритися в цю речовину, але не варто приймати в нiй ванну."	"Speaker=Lola"
+
+"death_enemy_trilobite_00"	"З убитих тварюк можуть випадати кориснi речi."	"Speaker=Lola"
+"death_enemy_trilobite_01"	"Такий сильний хлопець, як ти, повинен бути в змозi впоратися з цими тварюками своею киркою."	"Speaker=Lola"
+"death_enemy_trilobite_02"	"Намагайся знищити тварюк до того, як вони вирвуться з-пiд грунту."	"Speaker=Lola"
+"death_enemy_trilobite_03"	"Краще пiдкрадайся i бий цих тварюк у спину - так безпечнiше."	"Speaker=Lola"
+"death_enemy_trilobite_04"	"Ти можеш використати перевагу висоти, щоб триматися подалi вiд небезпеки."	"Speaker=Lola"
+"death_enemy_trilobite_05"	"Дiра мiж тобою й тварюкою сповiльнить тебе, але зробить шлях безпечнiшим."	"Speaker=Lola"
+
+"death_ENEMY_TURTLE_BASE_00"	"Треба розчистити простiр, щоб розiбратись з цими iстотами й не постраждати."	"Speaker=Lola"
+"death_ENEMY_TURTLE_BASE_01"	"Якщо можеш, краще тримайся подалi вiд цих панцирних дияволiв."	"Speaker=Lola"
+"death_ENEMY_TURTLE_BASE_02"	"Будь обережний - не дозволяй ïм зруйнувати тобi шлях нагору"	"Speaker=Lola"
+"death_ENEMY_TURTLE_BASE_03"	"Якщо у тебе достатньо здоров'я, ти можеш просто побитися з ними."	"Speaker=Lola"
+
+"death_enemy_shiner_00"	"Поводься тихiше i зможеш застати ïх сплячими"	"Speaker=Lola"
+"death_enemy_shiner_01"	"Цi вороги не надто розумнi. Буде неважко викопати для них пастки."	"Speaker=Lola"
+
+"death_enemy_boozer_00"	"Тримайся подалi вiд цих пляшок, друже."	"Speaker=Lola"
+"death_enemy_boozer_01"	"П'яницi - небезпечнi вороги. Спробуй пiдiбратися до них знизу"	"Speaker=Lola"
+"death_enemy_boozer_02"	"Можливо, тобi вдасться пiдiрвати землю пiд п'яницями."	"Speaker=Lola"
+"death_enemy_boozer_03"	"У п’яниць слабкi ноги. Спробуй зробити пiд ними пiдкоп."	"Speaker=Lola"
+
+"death_enemy_barrel_00"	"Щоб вибух не застав зненацька, вдар бочку i тiкай."	"Speaker=Lola"
+"death_enemy_barrel_01"	"Не слiд стояти близько до бочок занадто довго."	"Speaker=Lola"
+"death_enemy_barrel_02"	"Я навiть тут, вiдчула поштовх вiд того вибуху."	"Speaker=Lola"
+"death_enemy_barrel_03"	"Якщо пiд час вибуху однiеï бочки поруч будуть знаходитися iншi, це може спричинити ланцюгову реакцiю."	"Speaker=Lola"
+
+"death_enemy_spike_00"	"Шипи можна викопати знизу"	"Speaker=Lola"
+"death_enemy_spike_01"	"Шипи iнколи важко помiтити, особливо якщо тобi бракуе свiтла."	"Speaker=Lola"
+
+"death_enemy_turret_00"	"Здаеться, сховатися за землею не вийде"	"Speaker=Lola"
+"death_enemy_turret_01"	"Спробуй викопати ïх"	"Speaker=Lola"
+
+"death_enemy_vectron_minion_00"	"Схоже, вони досить агресивнi. Можна використати це проти них."	"Speaker=Lola"
+"death_enemy_vectron_minion_01"	"Краще триматися подалi, як тiльки вони почнуть пищати."	"Speaker=Lola"
+"death_enemy_vectron_minion_02"	"Спробуй кинути в них динамiт."	"Speaker=Lola"
+
+"death_barrier_00"	"Шкiдливе свiтло? Та нiсенiтниця якась!"	"Speaker=Lola"
+
+"death_laser_box_00"	"Спробуй стукнути ïх по головi. Подивимося, що трапиться."	"Speaker=Lola"
+"death_laser_box_01"	"Здаеться, краще не потрапляти в ïхне поле зору."	"Speaker=Lola"
+
+# ------ FALLBACK CONVERSATIONS.
+"Dorothy_fallback_01"	"Я зачекаю тут i спробую знайти вихiд."	"Speaker=Dorothy"
+
+"Cranky_fallback_01"	"*Кхм*"	"Speaker=Cranky; The * symbol denotes that the text is a sound and not spoken. E.g. a Sigh sound."
+
+"Cranky_fallback_20"	"*Кхм*"	"Speaker=Cranky"
+"Cranky_fallback_21"	"Що будеш замовляти?"	"Speaker=Cranky"
+"Cranky_fallback_22"	"Ти зламав, ти купив."	"Speaker=Cranky"
+"Cranky_fallback_23"	"Доброго ранку."	"Speaker=Cranky"
+"Cranky_fallback_24"	"Ти щось купуеш чи нi?"	"Speaker=Cranky"
+"Cranky_fallback_25"	"Бiльшiсть цих речей я зробив своïми руками."	"Speaker=Cranky"
+
+"Lola_fallback_01"	"Не забувай навiдуватись, чуеш?"	"Speaker=Lola"
+
+"Biff_fallback_00"	"Де вiтальний кортеж, друже?"	"Speaker=Biff"
+"Biff_fallback_01"	"Бiфф повернувся! Йiхаа!"	"Speaker=Biff"
+"Biff_fallback_02"	"Не був тут з тих пiр, як був молодим. Але важкi часи вже позаду."	"Speaker=Biff"
+"Biff_fallback_03"	"Кажуть, ти принiс iз собою справжне вiдродження мiстечка, синку."	"Speaker=Biff"
+"Biff_fallback_04"	"Бiфф Бiкон йде туди, де е грошi."	"Speaker=Biff"
+
+"Biff_fallback_20"	"Що ти вибереш, друже?"	"Speaker=Biff"
+"Biff_fallback_21"	"Низькi, низькi цiни."	"Speaker=Biff"
+"Biff_fallback_22"	"Тобi не доведеться торгуватися. Все вже зi знижками."	"Speaker=Biff"
+"Biff_fallback_23"	"Розглядайте все, що завгодно, пане."	"Speaker=Biff"
+"Biff_fallback_24"	"Дешевше не знайдеш."	"Speaker=Biff"
+"Biff_fallback_25"	"Хто сказав, що якiсть мае свою цiну?"	"Speaker=Biff"
+
+"Dandy_fallback_00"	"Ласкаво просимо, шановний пане."	"Speaker=Dandy"
+"Dandy_fallback_01"	"Гадаю, ти марнував свiй час без гiдних торговельних альтернатив."	"Speaker=Dandy"
+"Dandy_fallback_02"	"Не хвилюйся, друже."	"Speaker=Dandy"
+"Dandy_fallback_03"	"Шукаеш бездоганний товар та сервiс? \nДендi Олександр - саме той, хто тобi потрiбен."	"Speaker=Dandy"
+"Dandy_fallback_04"	"Настав час, щоб хтось принiс трохи вишуканостi в це мiсто."	"Speaker=Dandy"
+"Dandy_fallback_05"	"Хiба ти не згоден?"	"Speaker=Dandy"
+
+"Dandy_fallback_20"	"Ласкаво просимо, сер."	"Speaker=Dandy"
+"Dandy_fallback_21"	"Поглянь на нашi першокласнi товари."	"Speaker=Dandy"
+"Dandy_fallback_22"	"Сам факт, що ви в моïй лавцi, свiдчить про ваш витончений смак."	"Speaker=Dandy"
+"Dandy_fallback_23"	"Шукаете в життi чогось вишуканого, Я так розумiю?"	"Speaker=Dandy"
+"Dandy_fallback_24"	"Справжня цiннiсть речi - не у вартостi ïï виробництва."	"Speaker=Dandy"
+"Dandy_fallback_25"	"Роздивляйся скiльки душа забажае."	"Speaker=Dandy"
+
+
+# ------ RUSTY ENTERS MINE AND TALKS TO JOE'S CORPSE.
+"Rusty_enter_mine_01"	"*Ох*"	"Speaker=Rusty"
+"Rusty_enter_mine_02"	"Ну, я не думаю, що виберуся так само, як i потрапив сюди."	"Speaker=Rusty"
+"Rusty_enter_mine_03"	"Можливо, це частина шахти мого дядька. Потрiбно лише нанести трохи фарби."	"Speaker=Rusty"
+"Rusty_enter_mine_04"	"Треба встигнути все оглянути, поки решта мого свiтла не згасла."	"Speaker=Rusty"
+
+"Dorothy_in_mine_00"	"Скажи! Що ти, на твою думку, робиш?"	"Speaker=Dorothy"
+"Dorothy_in_mine_01"	"Твоя ефектна поява просто обвалила дах."	"Speaker=Dorothy"
+
+"Dorothy_in_mine_03"	"Вибачте, панi."	"Speaker=Rusty"
+"Dorothy_in_mine_04"	"Мiй дядько передав менi права на цю шахту."	"Speaker=Rusty"
+"Dorothy_in_mine_05"	"Я прямував до Тамблетона, щоб з'ясувати чому, як раптом провалився."	"Speaker=Rusty"
+
+"Dorothy_in_mine_06"	"Ох... \nТи племiнник Джо?"	"Speaker=Dorothy"
+"Dorothy_in_mine_07"	"Вiн вже давно не з'являвся. \nЯ крадькома спускалася сюди, щоб видобувати те, що могла, i..."	"Speaker=Dorothy"
+"Dorothy_in_mine_08"	"Я щойно його знайшла"	"Speaker=Dorothy"
+"Dorothy_in_mine_09"	"Вибач..."	"Speaker=Dorothy"
+"Dorothy_in_mine_10"	"Ти повинен пiти i подивитися сам."	"Speaker=Dorothy"
+"Dorothy_in_mine_11"	"А я почекаю тут i спробую знайти вихiд."	"Speaker=Dorothy"
+
+"dead_miner_01"	"Давно не бачилися, дядьку. Вибач, що не встиг приïхати до того, як ти нас покинув."	"Speaker=Rusty"
+"dead_miner_02"	"Ти завжди казав, що ми дуже схожi? \nХоча я не розумiю, чому ти надiслав менi права на цю шахту."	"Speaker=Rusty"
+"dead_miner_03"	"Я не шахтар."	"Speaker=Rusty"
+"dead_miner_04"	"*Зiтхання* \nНе хочу мародерствувати."	"Speaker=Rusty"
+"dead_miner_05"	"Я тiльки позичу твою кирку, щоб вибратися з цiеï пастки."	"Speaker=Rusty"
+
+"Dorothy_in_mine_12"	"Бачу, ти знайшов кирку. \nЗ нею ти дiйсно виглядаеш як справжнiй шахтар."	"Speaker=Dorothy"
+"Dorothy_in_mine_13"	"Це добре. Важiль, який вiдкривае вихiд, засипало, коли ти впав сюди."	"Speaker=Dorothy"
+"Dorothy_in_mine_14"	"Щоб дiстатися до нього, тобi доведеться прорити тунель вниз."	"Speaker=Dorothy"
+
+"Dorothy_in_mine_15"	"Тобi потрiбно прорити тунель вниз до важеля, щоб ми могли вибратися звiдси."	"Speaker=Dorothy"
+
+# ------ DOROTHY TELLS YOU TO OPEN UP THE MINE AGAIN.
+"Pre_Dorothy1_00"	"Ти впорався з цiею задачею як справжнiй професiонал."	"Speaker=Dorothy"
+"Pre_Dorothy1_01"	"Оскiльки ти новий власник, можливо, Тобi варто залишити шахту вiдкритою?"	"Speaker=Dorothy"
+"Pre_Dorothy1_02"	"Принеси менi будь-яку руду, яку знайдеш, i я заплачу тобi за неï справедливу цiну."	"Speaker=Dorothy"
+"Pre_Dorothy1_03"	"Цьому мiсту це точно не завадить."	"Speaker=Dorothy"
+"Pre_Dorothy1_04"	"До речi, мене звати Доротi."	"Speaker=Dorothy"
+"Pre_Dorothy1_05"	"А тепер, чому б тобi не спробувати видобути кiлька дорогоцiнних каменiв?"	"Speaker=Dorothy"
+
+"Pre_Dorothy1_20"	"Що в тебе е для мене?"	"Speaker=Dorothy"
+"Pre_Dorothy1_21"	"Знайшов щось хороше?"	"Speaker=Dorothy"
+"Pre_Dorothy1_22"	"Продовжуй добувати коштовностi."	"Speaker=Dorothy"
+
+"Pre_Cranky1_00"	"Моï друзi називають мене Хенк або Буркотун... \nТи можеш називати мене мiстер МакКранк."	"Speaker=Cranky"
+"Pre_Cranky1_01"	"Тобi знадобиться краща кирка."	"Speaker=Cranky"
+"Pre_Cranky1_02"	"Ну, у нас закiнчилися ресурси. Адже шахта була закрита."	"Speaker=Cranky"
+
+"Pre_Cranky1_20"	"Якщо я знову вiдкрию магазин..."	"Speaker=Cranky"
+"Pre_Cranky1_21"	"Менi знадобиться бiльше ресурсiв."	"Speaker=Cranky"
+
+"Pre_Lola1_00"	"Приемно бачити нове обличчя в мiстi. Особливо таке гарне."	"Speaker=Lola"
+"Pre_Lola1_01"	"Не часто тут з’являються новi обличчя. Народ волiе рухатися в iншому напрямку."	"Speaker=Lola"
+"Pre_Lola1_02"	"Отже! Ти наш новий шахтар."	""
+"Pre_Lola1_03"	"Шкода, що старий Джо покинув нас. Вiн вже деякий час виглядав не дуже добре."	""
+"Pre_Lola1_04"	"Ти тихий хлопець, як i вiн, еге ж?"	"Speaker=Lola"
+"Pre_Lola1_05"	"Тодi просто дозволь менi говорити."	"Speaker=Lola"
+
+"Pre_Lola1_20"	"Приемно бачити нове обличчя в мiстi."	"Speaker=Lola"
+
+# ------ YOU CAN NOW UPGRADE YOUR PICKAXE.
+"Pre_Dorothy2_00"	"Схоже, ти починаеш розумiти, як це працюе."	"Speaker=Dorothy"
+"Pre_Dorothy2_01"	"Ти повинен пiти до мого тата в магазин оновлень."	"Speaker=Dorothy"
+"Pre_Dorothy2_02"	"Вiн полагодить кирку, щоб ти мiг копати ще глибше."	"Speaker=Dorothy"
+"Pre_Dorothy2_03"	"Але не кажи йому, що ми зустрiлися в шахтi."	"Speaker=Dorothy"
+
+"Pre_Dorothy2_20"	"Iди поговори з моïм татом щодо ремонту твоеï кирки."	"Speaker=Dorothy"
+
+"Pre_Cranky2_00"	"Тепер у мене е, з чим працювати."	"Speaker=Cranky"
+
+"Pre_Lola2_00"	"То ти залишаешся?"	"Speaker=Lola"
+"Pre_Lola2_01"	"Це добре."	"Speaker=Lola"
+
+"Pre_Lola2_20"	"Приемно, що тут знову хтось займаеться видобутком."	"Speaker=Lola"
+
+# ------ USE YOUR NEW PICKAXE AND EXPLORE THE FIRST CAVE.
+"conv_Tumbleton_Dorothy1_00"	"Ця кирка повинна дозволити копати твердiший грунт на бiльшiй глибинi."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_01"	"Коли Я шукала руду, я знайшла ще щось... Печеру."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_02"	"Можливо, тобi варто зазирнути туди. Джо носив туди всiлякi речi."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_03"	"Але будь обережний."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_04"	"З моменту його зникнення тварюки стали агресивнiшими."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy1_20"	"Пiдтримка роботи шахти дiйсно допоможе цьому мiсту."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_21"	"Цьому мiсту точно б не завадив розвиток."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_22"	"Ти вже встиг зазирнути в ту печеру, яку Я знайшла?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_23"	"Що ти менi принiс?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_24"	"Знайшов щось гарне?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky1_00"	"То ти пiдтримуеш шахту свого дядька вiдкритою? Небезпечне мiсце."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky1_01"	"Втратив ногу через п'яницю, коли лагодив стару трубу в тунелях."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky1_02"	"Думаю, Я мiг би полагодити ïï, але..."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky1_03"	"Як казали в мене на батькiвщинi — дiти шевця завжди найгiрше взутi."	"Speaker=Cranky; An old Scottish saying meaning: The shoemaker's children are the one's with the worst shoes. This means that if someone does something for a living they are usually quite bad at getting those things done at home."
+"conv_Tumbleton_Cranky1_04"	"Все ж таки, ми шахтарське мiсто. Без шахти нам нiяк не обiйтися."	"Speaker=Cranky"
+
+# ------ YOU FOUND SOME SPEED BOOTS IN THE CAVE.
+"conv_Tumbleton_Dorothy2_00"	"Чорт! Що це у тебе на ногах?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_01"	"Я нiколи не бачила нiчого подiбного."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_02"	"Ти знайшов це в печерi? Думаеш, Джо залишив це для тебе?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_03"	"Можливо, десь глибше в шахтi е ще щось?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_04"	"Ти показав це моему батьковi? Ти дiйсно повинен це зробити."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy2_20"	"Найкращий курс купiвлi в мiстi. Гаразд, единий."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_21"	"Чим глибше копатимеш, тим цiннiшу руду знайдеш."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_22"	"Що ти маеш для мене?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy2_23"	"Знайшов щось цiнне?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky2_00"	"То ти знайшов одну з печер Джо, так?"	"Speaker=Cranky"
+"conv_Tumbleton_Cranky2_01"	"Не знаю, чим вiн там займався."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky2_02"	"У шестернях i парi я розбираюсь. А от вiн - експериментував з чимось геть дивним."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky2_03"	"Iнодi я дозволяв йому зберiгати цi речi у моему магазинi. Свiтилося воно як нечисте."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky2_04"	"Краще б вiн складав усе це в печерi, яку викопав глибше."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola2_00"	"У тебе дуже гарнi чоботи."	"Speaker=Lola"
+"conv_Tumbleton_Lola2_01"	"Напевно, в них ти бiгаеш швидко, як добре змащений паровий кабан."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola2_20"	"Дивнi на вигляд, але дiйсно гарнi чоботи."	"Speaker=Lola"
+
+# ------ YOU'VE FOUND THE CHARGE JUMP IN THE SECOND CAVE.
+"conv_Tumbleton_Dorothy3_00"	"Кажуть, ти знайшов ще одну дивну технологiю."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy3_01"	"Дивно, що вона тобi пiдходить."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy3_02"	"Нiби створена спецiально для тебе."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy3_20"	"Знову повернувся на свiтло?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy3_21"	"Бачу, ти тяжко працюеш."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy3_22"	"Що ти менi принiс?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy3_23"	"Знайшов щось хороше?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky3_00"	"Ти все одно пiшов туди? *Кхм*"	"Speaker=Cranky"
+"conv_Tumbleton_Cranky3_01"	"Упертий, як твiй дядько. Вiн теж завжди робив все по-своему."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky3_02"	"Якщо не зможу вiдрадити тебе, то принаймнi допоможу, чим зможу."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky3_03"	"Не хочу, щоб моя донька гарувала за зниклого копача."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola3_00"	"Той невеликий час, що Джо проводив на поверхнi, вiн тинявся бiля бару."	"Speaker=Lola"
+"conv_Tumbleton_Lola3_01"	"Зазвичай сам. Щось занотував у своïх нотатках."	"Speaker=Lola"
+"conv_Tumbleton_Lola3_02"	"Я знайшла цю стару серветку, на якiй вiн щось намалював."	"Speaker=Lola"
+"conv_Tumbleton_Lola3_03"	"Схоже на карту, чи не так? Вiн також щось на нiй позначив."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola3_20"	"Ти вже мав нагоду подивитися, що там на тiй мапi?"	"Speaker=Lola"
+
+# ------ YOU FOUND THE DRILL
+"conv_Tumbleton_Dorothy4_00"	"Ого! Цей бур виглядае дуже потужним. Достатньо потужним, щоб пробити навiть дуже твердий грунт."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_01"	"Думаеш, Джо знав, що вiн тобi знадобиться?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_02"	"Пробури тунель у Старий Свiт, який знаходиться пiд шахтою."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_03"	"Б'юся об заклад, там внизу е скарби."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_04"	"Там немае нiкого, крiм П'яниць. Не думаю, що вони розбираються в цiнних породах."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_05"	"Так Тамблтон може стати центром золотоï лихоманки."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy4_20"	"Ви вже дiстався до Старого Свiту?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_21"	"Я дам тобi справедливу цiну за все, що ти викопаеш."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_22"	"Там, в глибинi, мабуть, дуже цiкаво?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy4_23"	"П'яницi нас не лякають, нi, сер!"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky4_00"	"Деякi деталi цього дриля виглядають знайомими, але тобi все одно знадобиться пар."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky4_01"	"Iншi частини набагато перевершують те, що я бачив ранiше."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky4_02"	"Можливо, Джо в Старому Свiтi своïх iдей набрався."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky4_03"	"Вiн казав, що П'яницi були досить генiальними в давнину..."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky4_04"	"Поки вони не зруйнували свiй свiт."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola4_00"	"Старий Джо нiколи не любив компанiю."	"Speaker=Lola"
+"conv_Tumbleton_Lola4_01"	"Останнi кiлька рокiв вiн провiв у шахтi."	"Speaker=Lola"
+"conv_Tumbleton_Lola4_02"	"Однак майже нiчого не приносив звiдти."	"Speaker=Lola"
+"conv_Tumbleton_Lola4_03"	"Наче щось там зацiкавило його бiльше, нiж дорогоцiнне камiння."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola4_20"	"До старого Джо було нелегко увiйти в довiру"	"Speaker=Lola"
+
+# ------ YOU'VE ENTERED Old World
+"conv_Tumbleton_Cranky5_00"	"То ти потрапив до Старого Свiту? Вологе i пiдступне мiсце."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_01"	"Ти ще й ту стару пневмотрубу прочистив?"	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_02"	"Вона набагато надiйнiша, нiж цi свiтловi, як ïх там."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_03"	"Будь обережний, дослiджуючи пiдземелля."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_04"	"П'яницi можуть бути досить небезпечними."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_05"	"Не найкраще мiсце для шахти."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky5_06"	"Ми не вибираемо, де натрапимо на поклад."	"Speaker=Cranky"
+
+# ------ YOU'VE FOUND THE FIRST UPGRADE IN Old World
+"conv_Tumbleton_Dorothy6_00"	"Чим бiльше ти цього викопуеш, тим яснiше менi стае."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_01"	"Твiй дядько поклав це туди, щоб ти знайшов."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_02"	"Як слiд з хлiбних крихт, по якому треба йти."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_03"	"Вiн до чогось тебе готуе."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy6_20"	"Я знала, що в Старому свiтi можна знайти скарби."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_21"	"Там ще багато чого залишилося, так?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_22"	"Ти досягаеш успiхiв."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy6_23"	"Цi новi кориснi копалини, безсумнiвно, сприятимуть розвитку мiста."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky6_00"	"Тут нагорi майже не залишилося слiдiв вiд П'яниць."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky6_01"	"Дивлячись на те, якими люди стали сьогоднi, важко подiляти вiру твого дядька."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky6_02"	"Що П'яницi вiдiграли роль у створеннi першого Стiмбота"	"Speaker=Cranky"
+"conv_Tumbleton_Cranky6_03"	"Якщо це правда, то на що ще вони були здатнi в той час?"	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola6_00"	"З часiв вiйни не бачила П'яницю нагорi."	"Speaker=Lola"
+"conv_Tumbleton_Lola6_01"	"Вони божевiльнi i небезпечнi. Абсолютно непередбачуванi."	"Speaker=Lola"
+"conv_Tumbleton_Lola6_02"	"Прямо як бiльшiсть моïх вiдвiдувачiв."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola6_20"	"Цi П'яницi не так вже й вiдрiзняються вiд нас."	"Speaker=Lola"
+
+"conv_Tumbleton_Biff6_00"	"Це старий дивак-шахтар, який тут видобував кориснi копалини до тебе."	"Speaker=Biff"
+"conv_Tumbleton_Biff6_01"	"Вiн завжди замовляв якiсь дивнi речi."	"Speaker=Biff"
+"conv_Tumbleton_Biff6_02"	"Непотрiбнi речi, такi як скрученi мiднi трубки та iншi подiбнi нiсенiтницi."	"Speaker=Biff"
+
+# ------ YOU'VE FOUND THE SECOND UPGRADE IN Old World
+"conv_Tumbleton_Dorothy7_00"	"Ти скоро дiйдеш до дна Старого Свiту."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy7_01"	"Кiнець стежки мае бути вже близько."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy7_02"	"Бачиш, пiд Старим Свiтом температура буде надто високою для копання навiть для Стiмбота."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy7_20"	"Ти скоро досягнеш дна."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy7_21"	"Все ще займаешся цим?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy7_22"	"Як глибоко, на твою думку, простягаеться Старий Свiт?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy7_23"	"Ти вiдчуваеш жар на глибинi?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky7_00"	"Я все життя керую цим магазином."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky7_01"	"Технологiï не розвиваються стрибками."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky7_02"	"Це вiдбуваеться поступово. Один винахiд породжуе iнший."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky7_03"	"Не так, як те, що ти знаходиш там."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky7_04"	"Мене це трохи лякае, зiзнаюся."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky7_05"	"Хоча це не означае, що вони не кориснi."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola7_00"	"Iнодi старий Джо тижнями не виходив з шахти."	"Speaker=Lola"
+"conv_Tumbleton_Lola7_01"	"Мабуть, вiн дуже глибоко забрався."	"Speaker=Lola"
+"conv_Tumbleton_Lola7_02"	"Iнодi ми думали, що вiн залишиться там назавжди."	"Speaker=Lola"
+"conv_Tumbleton_Lola7_03"	"Врештi-решт вiн довiв, що ми мали рацiю, чи не так?"	"Speaker=Lola"
+
+"conv_Tumbleton_Lola7_20"	"Сумно, що Джо бiльше з нами нема."	"Speaker=Lola"
+"conv_Tumbleton_Lola7_21"	"Та все ж, думаю, вiн завжди прагнув закiнчити свiй шлях у шахтi."	"Speaker=Lola"
+
+"conv_Tumbleton_Biff7_00"	"Готуешся знову спуститися в тунелi, хлопче?"	"Speaker=Biff"
+"conv_Tumbleton_Biff7_01"	"До вiйни ми з хлопцями нишком спускались туди й грали в хованки."	"Speaker=Biff"
+"conv_Tumbleton_Biff7_02"	"Дехто повертався з розповiдями про сяючi вогнi в темрявi."	"Speaker=Biff"
+"conv_Tumbleton_Biff7_03"	"Часто лякали одне одного всiлякими байками про привидiв."	"Speaker=Biff"
+"conv_Tumbleton_Biff7_04"	"Але схоже, ти не з тих, хто боïться привидiв."	"Speaker=Biff"
+
+# ------ YOU'VE FOUND THE LAST UPGRADE IN Old World AND ENTERED VECTRON.
+"conv_Tumbleton_Dorothy8_00"	"Що?! Шахта йде ще глибше?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_01"	"Це iнiй на твоïй бронi? Як це взагалi можливо?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_02"	"Eдине, що повинно бути на такiй глибинi, це розплавлена порода."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_03"	"Будь ласка, будь обережний."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_04"	"Щось, мабуть, охолоджуе землю."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_05"	"Тобi дiйсно варто дослiдити, що там внизу."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy8_20"	"Будь обережний там."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_21"	"Це дуже цiнна порода."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_22"	"Нам вона дуже знадобиться."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy8_23"	"Я не розумiю, там же мае бути спека."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky8_00"	"Я й гадки не мав, що там внизу е ще одна пневмотруба."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky8_01"	"Це пiдтверджуе, що твiй дядько дiстався туди."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky8_02"	"Можливо, ти навiть знайдеш там джерело знань Джо."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky8_03"	"Але ти повинен бути обережним. Це дуже дивнi речi."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky8_04"	"Ти не просто вiдкрив дорогу вглиб."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola8_00"	"Ти значно молодший за Джо, а вiн не надто добре себе почував."	"Speaker=Lola"
+"conv_Tumbleton_Lola8_01"	"Втiм, сподiваюсь, ти готовий до всього, що тебе чекае."	"Speaker=Lola"
+"conv_Tumbleton_Lola8_02"	"Удачi."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola8_20"	"Схоже, ти й справдi готовий зустрiти невiдоме."	"Speaker=Lola"
+
+"conv_Tumbleton_Biff8_00"	"Я вважаю, що чим глибше ти копаеш, тим краще буде нам усiм."	"Speaker=Biff"
+"conv_Tumbleton_Biff8_01"	"Забудь про обережнiсть, мандрiвнику, i розмахнись киркою як слiд."	"Speaker=Biff"
+"conv_Tumbleton_Biff8_02"	"Йiхаа!"	"Speaker=Biff"
+
+# ------ YOU'VE FOUND THE MINIMAP; YOU'VE BROKEN THROUGH THE FIRST BARRIER.
+"conv_Tumbleton_Dorothy9_00"	"Там внизу живуть якiсь iстоти?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy9_01"	"Що це за iстоти?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy9_02"	"Тварини? Ти думаеш, вони розумнi?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy9_20"	"Це дуже добре."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy9_21"	"Ми точно зможемо використати цю нову руду."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy9_22"	"За неï дадуть хорошу цiну."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy9_23"	"Ти дiзнався щось бiльше про iстот, що живуть там внизу?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky9_00"	"Це навiть дивнiше за ту технологiю, яку ти ранiше знайшов."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky9_01"	"Жодна рiч тут не виглядае знайомою. Якась дивна сила керуе цим."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky9_02"	"Iншi штуки були просто дуже просунутою паровою технологiею."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky9_03"	"Це зовсiм iнша рiч. Я навiть не можу зрозумiти, для чого це."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky9_04"	"Думаю, назвu це... Електрикою."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola9_00"	"Всi цi iнструменти, якi ти знаходиш, мають полегшити копання."	"Speaker=Lola"
+"conv_Tumbleton_Lola9_01"	"Та бережи своï нутрощi також. Справжне серце не менш важливе."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola9_20"	"Бережи свое парове серце"	"Speaker=Lola"
+
+"conv_Tumbleton_Biff9_00"	"В цих глибинах ще багато невiдомого."	"Speaker=Biff"
+"conv_Tumbleton_Biff9_01"	"Втiм, дослiджувати варто. Ти вже знайшов чудовi речi, товаришу."	"Speaker=Biff"
+"conv_Tumbleton_Biff9_02"	"Як я завжди кажу, дарованому паровому коню в зуби не дивляться."	"Speaker=Biff; A Steambot version of the saying: Never look a gift horse in the mouth. The meaning is that you should not complain over things you've gotten for free."
+
+"conv_Tumbleton_Dandy9_00"	"Навiщо комусь там жити?"	"Speaker=Dandy"
+"conv_Tumbleton_Dandy9_01"	"В брудi й темрявi."	"Speaker=Dandy"
+"conv_Tumbleton_Dandy9_02"	"Менi здаеться, що всi вони досить примiтивнi, чи не так?"	"Speaker=Dandy"
+
+
+# ------ YOU'VE FOUND THE STATIC DASH. 
+"conv_Tumbleton_Dorothy10_00"	"Тепер у тобi вже бiльше нових деталей, нiж старих."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_01"	"Скiльки ще всього в тебе помiститься?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_02"	"Цiкаво, що задумав Джо коли надiслав тобi права на шахту..."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_03"	"Пiдготовлюючи печери..."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy10_20"	"Ти точно змiнився."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_21"	"Там унизу ще е що копати?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_22"	"Гарна здобич!"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy10_23"	"Це дуже рiдкiсна руда."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky10_00"	"Сама по собi технологiя не е небезпечною."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky10_01"	"Важливо як ïï використовують, ось що мае значення."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky10_02"	"Але скажу тобi, вiд цих штук, що ти знаходиш у печерах, у мене мурашки по шкiрi."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky10_03"	"Якщо не знаеш як воно працюе, то не можеш знати i про наслiдки."	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola10_00"	"Ти добряче змiнився з моменту прибуття."	"Speaker=Lola"
+"conv_Tumbleton_Lola10_01"	"Якщо для того, щоб копати так глибоко, потрiбнi всi цi модифiкацiï, як це зумiв Джо?"	"Speaker=Lola"
+"conv_Tumbleton_Lola10_02"	"Копати на таку глибину в такому станi... Не дивно, що вiн не повернувся."	"Speaker=Lola"
+
+"conv_Tumbleton_Lola10_20"	"Ти мов новенький бот!"	"Speaker=Lola"
+
+"conv_Tumbleton_Biff10_00"	"Ти нагадуеш менi вiдразу декiлькох моïх знайомих."	"Speaker=Biff"
+"conv_Tumbleton_Biff10_01"	"Кажу тобi - жоден шахтар не мае такого вигляду."	"Speaker=Biff"
+"conv_Tumbleton_Biff10_02"	"У тебе радше вид воïна, друже."	"Speaker=Biff"
+
+"conv_Tumbleton_Dandy10_00"	"Чудовий вигляд, любий друже."	"Speaker= Dandy"
+"conv_Tumbleton_Dandy10_01"	"Смiливо й по-новому."	"Speaker=Dandy"
+"conv_Tumbleton_Dandy10_02"	"Приемно бачити порушення нудних норм, якi тут називають модою."	"Speaker= Dandy"
+
+# ------ DOROTHY SENDS YOU TO DESTROY GENERATORS.
+"conv_Tumbleton_Dorothy11_00"	"Можливо, за тими дверима саме те, за чим ти сюди прийшов."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_01"	"Якщо бар'ерiв три, то й генераторiв мае бути три, так?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_02"	"Тобi доведеться знайти ïх усi."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_03"	"Може, зазирнеш i на верхнi рiвнi?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_04"	"Можливо, це генератори бiсять усiх тих тварюк?"	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy11_20"	"Ти вже знайшов тi генератори?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_21"	"Ти просто як бурова машина. У буквальному сенсi."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy11_22"	"Цiкаво, що ж за тими дверима?"	"Speaker=Dorothy"
+
+
+"conv_Tumbleton_Cranky11_00"	"Ти ж не знаеш, що тi дверi стримують."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky11_01"	"Може, Джо i хотiв, щоб ти ïх вiдкрив? Тому й передав тобi права на цю шахту."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky11_02"	"А раптом за ними криеться якась страшна сила?"	"Speaker=Cranky"
+
+"conv_Tumbleton_Lola11_00"	"Ти дiйсно повинен задатися питанням, як Джо зробив все це самотужки?"	"Speaker=Lola"
+
+"conv_Tumbleton_Lola11_20"	"Як той старий взагалi змiг з усiм цим упоратись?"	"Speaker=Lola"
+
+"conv_Tumbleton_Biff11_00"	"Можливо, тi дверi ведуть до неймовiрних багатств."	"Speaker=Biff"
+"conv_Tumbleton_Biff11_01"	"Мiнерали, стиснутi в найфантастичнiшi матерiали."	"Speaker=Biff"
+
+"conv_Tumbleton_Dandy11_00"	"О, небеса! Поглянь на ту пустельну квiточку, що керуе обмiнною крамницею."	"Speaker= Dandy"
+"conv_Tumbleton_Dandy11_01"	"Можливо, дещо невитончена..."	"Speaker=Dandy"
+"conv_Tumbleton_Dandy11_02"	"Та з такими щiчками, ïй би лиш трохи блиску, й усе."	"Speaker= Dandy"
+"conv_Tumbleton_Dandy11_03"	"Можливо, я ще зможу перетворити це мiсце на пристойне товариство."	"Speaker= Dandy"
+
+# ------ YOU DESTROYED THE OTHER GENERATORS IN Old World AND ARCHAEA; DOOR IS OPEN.
+"conv_Tumbleton_Dorothy12_00"	"Виглядаеш добре пiдготовленим."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy12_01"	"Нема сенсу бiльше чекати."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy12_02"	"Iди, i вiдкрий тi дверi."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Dorothy12_20"	"Вiдкрий тi дверi."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy12_21"	"Скоро ти дiзнаешся, чим займався твiй дядько."	"Speaker=Dorothy"
+
+"conv_Tumbleton_Cranky12_00"	"Тепер рiшення за тобою, хлопче."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky12_01"	"Сподiваюсь, ти готовий до того, що чекае за тими дверима."	"Speaker=Cranky"
+
+
+# ------ BOSS FIGHT!
+"Rusty_defies_boss01_00"	"*БЗЗТ*"	"Speaker=Nobody"
+"Rusty_defies_boss01_01"	"*БЗЗЗ, БЗЗЗЗЗЗЗЗЗ*"	"Speaker=Nobody"
+"Rusty_defies_boss01_02"	"*БЗЗТ*"	"Speaker=Nobody"
+
+"Rusty_defies_boss01_03"	"ЛАСКАВО ПРОСИМО ДО ВЕКТРОНА... *БЗЗТ*"	"Speaker=Nobody"
+"Rusty_defies_boss01_04"	"РАСТI."	"Speaker=Nobody"
+
+"Rusty_defies_boss01_05"	"..."	"Speaker=Rusty"
+"Rusty_defies_boss01_06"	"Джо?"	"Speaker=Rusty"
+"Rusty_defies_boss01_07"	"Ти виглядаеш iнакше."	"Speaker=Rusty"
+
+"Rusty_defies_boss01_08"	"ВИВЧАЮЧИ ЦИХ ВОЛЬТБОТIВ, Я НАВЧИВСЯ СКИДАТИ СВОЮ СЛАБКУ ОБОЛОНКУ."	"Speaker=Joe"
+"Rusty_defies_boss01_09"	"ЯК I СТIМБОТИ, ВОНИ - ДIТИ ЛЮДСТВА."	"Speaker=Joe"
+"Rusty_defies_boss01_10"	"ЇХНЯ КОНСТРУКЦIЯ - СПРАВЖНE ДИВО IНЖЕНЕРIЇ."	"Speaker=Joe"
+"Rusty_defies_boss01_11"	"СТIМБОТИ НЕ E ГIДНИМИ СПАДКОEМЦЯМИ ПОВЕРХНI."	"Speaker=Joe"
+"Rusty_defies_boss01_12"	"ТЕПЕР, КОЛИ ТИ ПРОЙШОВ ТОЙ ЖЕ ШЛЯХ, ЩО I Я, ТИ ТЕЖ СТАВ ВОЛЬТБОТОМ."	"Speaker=Joe"
+"Rusty_defies_boss01_13"	"ЯК ТIЛЬКИ МОE НОВЕ ТIЛО БУДЕ ЗАВЕРШЕНЕ... \n*БЗЗТ* МИ ПОВСТАНЕМО З ГЛИБИН!"	"Speaker=Joe"
+
+"Rusty_defies_boss01_14"	"Ну що ж... оригiнально."	"Speaker=Rusty"
+"Rusty_defies_boss01_15"	"Вибач, але поки я живий - ти нiколи не дiстанешся поверхнi."	"Speaker=Rusty"
+
+"Rusty_defies_boss01_16"	"ТВОE СЛАБКЕ СТIМБОТ-СЕРЦЕ ПРИЗВЕДЕ ДО ТВОEЇ ЗАГИБЕЛI."	"Speaker=Joe"
+
+"Rusty_defies_boss01_20"	"*БЗЗЗЗЗЗЗЗЗЗТ*"	"Speaker=Joe"
+
+# ------ BOSS FIGHT 2!
+"Rusty_defies_boss02_07"	"ЧАСТИНКА ДЖО ЖИВЕ В НАШОМУ НОВОМУ ТIЛI. ВIН ЗЛИВСЯ З НАМИ ДОБРОВIЛЬНО."	"Speaker=Joe"
+"Rusty_defies_boss02_08"	"I СКОРО ТАК БУДЕ I З ТОБОЮ. НАМ ПОТРIБНЕ СПРАВЖНE СЕРЦЕ."	"Speaker=Joe"
+"Rusty_defies_boss02_09"	"МИ ПIДГОТУВАЛИ ТЕБЕ. ЗАМIНИЛИ ТВОЮ СЛАБКУ ОБОЛОНКУ СТIМБОТА."	"Speaker=Joe"
+"Rusty_defies_boss02_10"	"У ТОБI ВЖЕ БIЛЬШЕ НАС, НIЖ САМОГО СЕБЕ."	"Speaker=Joe"
+"Rusty_defies_boss02_11"	"*БЗЗТ* МИ СТАНЕМО НЕПЕРЕМОЖНИМИ! ВОЛЬТБОТ ПОВСТАНЕ Й ЗАПАНУE."	"Speaker=Joe"
+
+"Rusty_defies_boss02_12"	"Це правда, ти пiдготував мене. Пiдготував зупинити тебе."	"Speaker=Rusty"
+
+"Rusty_defies_boss02_13"	"ОСЬ ТАКЕ СЕРЦЕ НАМ I ПОТРIБНО. ЯКЩО ТИ НЕ ВIДДАСИ ЙОГО ДОБРОВIЛЬНО..."	"Speaker=Joe"
+
+# ------ EPILOGUE
+"conv_Epilogue_00"	"Ось i все, завершено. Споглядайте! Мое шедевральне творiння."	"Speaker=Dandy"
+
+"conv_Epilogue_01"	"Що... Я думала, це мала бути статуя Растi."	"Speaker=Lola"
+"conv_Epilogue_02"	"Адже саме вiн урятував це мiстечко вiд тих демонiв."	"Speaker=Lola"
+"conv_Epilogue_03"	"А не оце..."	"Speaker=Lola"
+"conv_Epilogue_04"	"Що це взагалi таке — мавпа з брухту?"	"Speaker=Lola"
+
+"conv_Epilogue_05"	"*Зiтхае* Хiба це не очевидно?"	"Speaker=Dandy"
+"conv_Epilogue_06"	"Це абстракцiя смертного Стiмбота, що здобувае божественнiсть."	"Speaker=Dandy"
+
+"conv_Epilogue_07"	"Це чимось нагадуе мого бiдолашного батька... пiсля того, як його збив вантажний потяг."	"Speaker=Cranky"
+"conv_Epilogue_07b"	"Царство йому небесне."	"Speaker=Cranky"
+
+"conv_Epilogue_08"	"Мое почуття прекрасного тут абсолютно марне."	"Speaker=Dandy"
+"conv_Epilogue_09"	"Без Растi це мiсце повнiстю позбавлене смаку."	"Speaker=Dandy"
+
+"conv_Epilogue_10"	"Навiщо нам взагалi цей пам'ятник?"	"Speaker=Dorothy"
+"conv_Epilogue_11"	"Ми ж досi як слiд не обстежили тi глибини."	"Speaker=Dorothy"
+
+"conv_Epilogue_12"	"Люба, вiн зник мiсяць тому."	"Speaker=Cranky"
+"conv_Epilogue_13"	"Катаклiзм унизу знищив все пiд Старим Свiтом."	"Speaker=Cranky"
+"conv_Epilogue_14"	"Там залишилися тiльки руïни."	"Speaker=Cranky"
+
+"conv_Epilogue_15"	"Краще зосередься на майбутньому, дiвчино."	"Speaker=Lola"
+"conv_Epilogue_16"	"Шастати по тих тунелях — не робота для юноï ледi."	"Speaker=Lola"
+
+"conv_Epilogue_17"	"З того хаосу нiхто живим не вийшов, люба."	"Speaker=Cranky"
+
+"conv_Epilogue_18"	"Та годi вам, люди! Невже тiльки ця дiвчина мае хоч трохи мужностi?"	"Speaker=Biff"
+"conv_Epilogue_19"	"Я теж за ним сумую. Вiн був менi близьким другом."	"Speaker=Biff"
+"conv_Epilogue_20"	"*Схлипуе* Пам’ятаю той перший день, коли вiн зайшов до моеï майстернi..."	"Speaker=Biff"
+"conv_Epilogue_20b"	"Це було у вiвторок..."	"Speaker=Biff"
+
+"conv_Epilogue_21"	"Вiзьми себе в руки, чоловiче."	"Speaker=Dandy"
+
+"conv_Epilogue_22"	"Та вiн же не мiг розчинився в повiтрi, правда?"	"Speaker=Dorothy"
+"conv_Epilogue_23"	"Вiн досi там, десь унизу. Я це просто вiдчуваю."	"Speaker=Dorothy"
+"conv_Epilogue_24"	"Я продовжуватиму пошуки."	"Speaker=Dorothy"
+"conv_Epilogue_25"	"Хай там що, я його знайду."	"Speaker=Dorothy"
+
+# ------ POST-3DS RELEASE
+"menu_skip"	"Пропустити"	"Ask the user whether to skip a dialogue / cutscene."
+"menu_credits"	"Титри"	""
+"menu_options"	"Опцiï"	""
+"menu_buy"	"Купити"	""
+"menu_exit"	"Вихiд"	""
+"menu_profiles_title"	"Вибрати Профiль"	""
+"menu_confirm_quit"	"Ви впевненi, що хочете припинити копати?"	""
+
+"ui_shoptitle_Cranky"	"Покращення у Буркотуна"	"The name of Cranky's shop. Same as the in-game graphics."
+"ui_shoptitle_Jack"	"Знижковий Кастом"	"The name of Biff's shop. Same as the in-game graphics."
+"ui_shoptitle_Dandy"	"ТузМайстер"	"The name of Dandy's shop. Same as the in-game graphics."
+
+"help_weapon_use"	"Атакувати"	"Use your main weapon."
+"help_weapon_change"	"Змiнити Зброю"	"Change your main weapon."
+"help_tool_use"	"Застосувати Предмет"	"Use your active tool/item"
+"help_tool_change"	"Змiнити Предмет"	"Change your active tool/item"
+"help_inventory"	"Iнвентар"	"Toggle the inventory menu."
+"help_discard"	"Викинути"	"Discard the selected item. I.e. throw away."
+
+"menu_back"	"Назад"	""
+
+"walk_text"	"Йти"	"Displayed in combination with on-screen graphics explaining how to walk."
+"jump_text"	"Пригати"	"Displayed in combination with on-screen graphics explaining how to jump."
+
+"vsync"	"В-синхронiзацiя"	"Displayed in options"
+
+"brightness"	"Яскравiсть"	"Displayed in options"
+
+"fullscreen"	"Повний Екран"	"Displayed in options"
+
+"bloom"	"Блум"	"Displayed in options"
+
+"language"	"Мова"	"Displayed in options"
+
+"ui_game_over_info_cave"	"Ти був знищений."	"Shown in a text box when having died in a cave. Here there's no fee."
+"ui_language"	"Мова"	"Button in Options menu leading to a separate screen, for selecting language."
+
+"menu_options_version"	"Версiя: %1%"	"Displays the current version of the game in the s-e corner in options"
+
+# ------ POST-STEAM RELEASE
+
+"default_controls_text"	"Керування за замовчуванням"	""
+
+"ui_video"	"Графiка"	"Displayed in options"
+"ui_audio"	"Звук"	"Displayed in options"
+"ui_controls"	"Керування"	"Displayed in options"
+"ui_default_controls_confirmation"	"Вiдновлення стандартних елементiв керування призведе до видалення всiх налаштувань, якi ви зробили. Ви впевненi?"	""
+"ui_bind_controls"	"Натиснiть кнопку, щоб прив'язати ïï до:\n%1%"	"Shown in a confirmation dialog when the player wants to bind a new button to an action. After the colon is the name of the action."
+
+"controls_actions"	"Дiя:"	"Displayed in options, controls"
+"controls_keybindings"	"Клiвiшi:"	"Displayed in options, controls"
+"controls_more_bindings"	"..."	"Displayed in options, controls"
+
+"button_move_up"	"Подивитися вгору / Пiдйом"	""
+"button_move_down"	"Подивитися вниз / Спуск"	""
+"button_move_left"	"Рухатися влiво"	""
+"button_move_right"	"Рухатися вправо"	""
+"button_activate"	"Взаемодiяти"	""
+"button_jump"	"Стрибати"	""
+"button_attack"	"Атакувати"	""
+"button_run"	"Бiг"	""
+"button_use_tool"	"Використати предмет"	""
+"button_cycle_weapon"	"Змiнити зброю"	""
+"button_cycle_tool"	"Змiнити предмет"	""
+"button_weapon_1"	"Вибрати Кирку"	""
+"button_weapon_2"	"Вибрати Бур"	""
+"button_weapon_3"	"Вибрати Паровий Удар"	""
+"button_inventory"	"Показати iнвентар"	""
+"button_discard"	"Викинути ресурс"	""
+"button_pause"	"Пауза"	""
+"button_skip"	"Пропустити розмову"	""
+
+"ui_reset_settings"	"Скинути налаштування"	""
+"ui_default_settings_confirmation"	"Ви впевненi, що хочете скинути всi налаштування до заводських?\n(Вашi збереження не будуть пошкодженi)"	""
+
+
+
+# ---------------- PlayStation
+
+"uiscale"	"Розмiр Iнтерфейсу"	"Displayed in Video options. User Interface / UI / GUI size."
+"uioffset"	"Позицiя Iнтерфейсу"	"Displayed in Video options. User Interface / UI / GUI position offset."
+
+"help_exit"	"Вийти"	"Displayed in shop menu. Try to keep short."
+"help_shop_buy"	"Купити"	"Displayed in shop menu. Try to keep short."	
+
+"savedata_broken"	"Збереженi данi пошкодженi i будуть перезаписанi."	""
