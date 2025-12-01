@@ -437,7 +437,7 @@
 "Dorothy_in_mine_05"	"Я прямував до Тамблетона, щоб з'ясувати чому, як раптом провалився."	"Speaker=Rusty"
 
 "Dorothy_in_mine_06"	"Ох... \nТи племiнник Джо?"	"Speaker=Dorothy"
-"Dorothy_in_mine_07"	"Вiн вже давно не з'являвся. \nя крадькома спускалася сюди, щоб видобувати те, що могла, i..."	"Speaker=Dorothy"
+"Dorothy_in_mine_07"	"Вiн вже давно не з'являвся. \nЯ крадькома спускалася сюди, щоб видобувати те, що могла, i..."	"Speaker=Dorothy"
 "Dorothy_in_mine_08"	"Я щойно його знайшла"	"Speaker=Dorothy"
 "Dorothy_in_mine_09"	"Вибач..."	"Speaker=Dorothy"
 "Dorothy_in_mine_10"	"Ти повинен пiти i подивитися сам."	"Speaker=Dorothy"
@@ -857,7 +857,7 @@
 "conv_Epilogue_21"	"Вiзьми себе в руки, чоловiче."	"Speaker=Dandy"
 
 "conv_Epilogue_22"	"Та вiн же не мiг розчинився в повiтрi, правда?"	"Speaker=Dorothy"
-"conv_Epilogue_23"	"Вiн досi там, десь унизу. я це просто вiдчуваю."	"Speaker=Dorothy"
+"conv_Epilogue_23"	"Вiн досi там, десь унизу. Я це просто вiдчуваю."	"Speaker=Dorothy"
 "conv_Epilogue_24"	"Я продовжуватиму пошуки."	"Speaker=Dorothy"
 "conv_Epilogue_25"	"Хай там що, я його знайду."	"Speaker=Dorothy"
 
