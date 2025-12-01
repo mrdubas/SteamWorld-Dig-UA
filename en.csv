@@ -78,14 +78,14 @@
 "upgrade_armor_1_01_desc"	"+1 максимального здоровья. \nЯ додам кілька металевих пластин до твоєї броні. Зроблю її трохи міцнішою."	"In-store descriptions for armor upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
 "upgrade_armor_1_02_desc"	"+1 максимального здоровья. \nТрохи зварювання повинно допомогти краще з'єднати твої частини броні."	""
 "upgrade_armor_2_01_desc"	"+1 максимального здоровья. \nЯ можу отримати додатковий захист від цієї броні, загартувавши метал, друже."	""
-"upgrade_armor_2_02_desc"	"+1 максимального здоровья. \nПокривши броню металом високої якості, Я можу зробити її дійсно міцною."	""
+"upgrade_armor_2_02_desc"	"+1 максимального здоровья. \nПокривши броню металом високої якості, я можу зробити її дійсно міцною."	""
 "upgrade_armor_3_01_desc"	"+1 максимального здоровья. \nЦя броня виготовлена з металу найвищої якості."	""
 "upgrade_armor_3_02_desc"	"+1 максимального здоровья. \nМетал кували і складали шар за шаром, поки він не став досконало міцним."	""
 "upgrade_armor_reduce_1_desc"	"25% стійкості до пошкоджень. \nЗмінивши кути своєї броні, ти не даси ворогам влучити як слід."	""
 
 "upgrade_water_1_01_desc"	"+1 максимума води. \nМожу трохи розширити бак для води."	"In-store descriptions for water tank upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
-"upgrade_water_1_02_desc"	"+1 максимума води. \nЯ думаю, Я міг би додати ще один бак, поруч із тим, що в тебе вже є."	""
-"upgrade_water_2_01_desc"	"+1 максимума води. \nСтарий бак доведеться зняти, але Я впевнений, що ми зможемо поставити туди більший."	""
+"upgrade_water_1_02_desc"	"+1 максимума води. \nЯ думаю, я міг би додати ще один бак, поруч із тим, що в тебе вже є."	""
+"upgrade_water_2_01_desc"	"+1 максимума води. \nСтарий бак доведеться зняти, але я впевнений, що ми зможемо поставити туди більший."	""
 "upgrade_water_2_02_desc"	"+1 максимума води. \nБільше завжди краще. Треба лише трохи перепланувати простір."	""
 "upgrade_water_3_01_desc"	"+1 максимума води. \nЯ не маю точних даних щодо розмірів. Схоже на щось безмежне, чи не так?"	""
 "upgrade_water_3_02_desc"	"+1 максимума води. \nЕхо... ехо... ехо... Можливо, десь там внизу таки є дно."	""
@@ -97,7 +97,7 @@
 
 "upgrade_pouch_1_01_desc"	"+1 слот в інвентарі. \nВам знадобиться більша сумка, якщо ви хочете принести більший улов."	"In-store descriptions for pouch upgrades. The instances with the suffix _1 are sold by Cranky; _2 by Biff; _3 by dandy."
 "upgrade_pouch_1_02_desc"	"+1 слот в інвентарі. \nТобі просто потрібно докласти зусиль, і ти зможеш нести цю сумку."	""
-"upgrade_pouch_1_03_desc"	"+1 слот в інвентарі. \nЦе найбільший мішечок, який Я можу виготовити самостійно."	""
+"upgrade_pouch_1_03_desc"	"+1 слот в інвентарі. \nЦе найбільший мішечок, який я можу виготовити самостійно."	""
 "upgrade_pouch_2_01_desc"	"+1 слот в інвентарі. \nПросторий, як диліжанс."	""
 "upgrade_pouch_2_02_desc"	"+1 слот в інвентарі. \nТканина цього мішка є надзвичайно еластичною. Клас на всі сто!"	""
 "upgrade_pouch_3_01_desc"	"+1 слот в інвентарі. \nПотрійна прошивка з подвійною підкладкою - витримає навіть найважчий вантаж!"	""
@@ -146,8 +146,8 @@
 "buy_failed_full_Jack"	"Цього в тебе вже вдосталь."	"Speaker=Biff"
 "buy_failed_locked_Jack"	"Трохи вище твого рівня. Інша крамниця може мати щось простіше для тебе."	"Speaker=Biff"
 
-"buy_failed_too_expensive_Dandy"	"Це справедлива ціна, Я вважаю."	"Speaker=Dandy"
-"buy_failed_full_Dandy"	"О, Я ніколи не намагатимуся продати вам більше, ніж вам потрібно, сер."	"Speaker=Dandy"
+"buy_failed_too_expensive_Dandy"	"Це справедлива ціна, я вважаю."	"Speaker=Dandy"
+"buy_failed_full_Dandy"	"О, я ніколи не намагатимуся продати вам більше, ніж вам потрібно, сер."	"Speaker=Dandy"
 "buy_failed_locked_Dandy"	"Вибач, це не сумісно з твоєю версією. Ти можеш знайти щось більш підходяще в інших магазинах."	"Speaker=Dandy"
 
 #------- Character names -------
@@ -391,7 +391,7 @@
 "Cranky_fallback_22"	"Ти зламав, ти купив."	"Speaker=Cranky"
 "Cranky_fallback_23"	"Доброго ранку."	"Speaker=Cranky"
 "Cranky_fallback_24"	"Ти щось купуєш чи ні?"	"Speaker=Cranky"
-"Cranky_fallback_25"	"Більшість цих речей Я зробив своїми руками."	"Speaker=Cranky"
+"Cranky_fallback_25"	"Більшість цих речей я зробив своїми руками."	"Speaker=Cranky"
 
 "Lola_fallback_01"	"Не забувай навідуватись, чуєш?"	"Speaker=Lola"
 
@@ -418,7 +418,7 @@
 "Dandy_fallback_20"	"Ласкаво просимо, сер."	"Speaker=Dandy"
 "Dandy_fallback_21"	"Поглянь на наші першокласні товари."	"Speaker=Dandy"
 "Dandy_fallback_22"	"Сам факт, що ви в моїй лавці, свідчить про ваш витончений смак."	"Speaker=Dandy"
-"Dandy_fallback_23"	"Шукаєте в житті чогось вишуканого, Я так розумію?"	"Speaker=Dandy"
+"Dandy_fallback_23"	"Шукаєте в житті чогось вишуканого, я так розумію?"	"Speaker=Dandy"
 "Dandy_fallback_24"	"Справжня цінність речі - не у вартості її виробництва."	"Speaker=Dandy"
 "Dandy_fallback_25"	"Роздивляйся скільки душа забажає."	"Speaker=Dandy"
 
@@ -437,14 +437,14 @@
 "Dorothy_in_mine_05"	"Я прямував до Тамблетона, щоб з'ясувати чому, як раптом провалився."	"Speaker=Rusty"
 
 "Dorothy_in_mine_06"	"Ох... \nТи племінник Джо?"	"Speaker=Dorothy"
-"Dorothy_in_mine_07"	"Він вже давно не з'являвся. \nЯ крадькома спускалася сюди, щоб видобувати те, що могла, і..."	"Speaker=Dorothy"
+"Dorothy_in_mine_07"	"Він вже давно не з'являвся. \nя крадькома спускалася сюди, щоб видобувати те, що могла, і..."	"Speaker=Dorothy"
 "Dorothy_in_mine_08"	"Я щойно його знайшла"	"Speaker=Dorothy"
 "Dorothy_in_mine_09"	"Вибач..."	"Speaker=Dorothy"
 "Dorothy_in_mine_10"	"Ти повинен піти і подивитися сам."	"Speaker=Dorothy"
-"Dorothy_in_mine_11"	"А Я почекаю тут і спробую знайти вихід."	"Speaker=Dorothy"
+"Dorothy_in_mine_11"	"А я почекаю тут і спробую знайти вихід."	"Speaker=Dorothy"
 
 "dead_miner_01"	"Давно не бачилися, дядьку. Вибач, що не встиг приїхати до того, як ти нас покинув."	"Speaker=Rusty"
-"dead_miner_02"	"Ти завжди казав, що ми дуже схожі? \nХоча Я не розумію, чому ти надіслав мені права на цю шахту."	"Speaker=Rusty"
+"dead_miner_02"	"Ти завжди казав, що ми дуже схожі? \nХоча я не розумію, чому ти надіслав мені права на цю шахту."	"Speaker=Rusty"
 "dead_miner_03"	"Я не шахтар."	"Speaker=Rusty"
 "dead_miner_04"	"*Зітхання* \nНе хочу мародерствувати."	"Speaker=Rusty"
 "dead_miner_05"	"Я тільки позичу твоє кайло, щоб вибратися з цієї пастки."	"Speaker=Rusty"
@@ -458,7 +458,7 @@
 # ------ DOROTHY TELLS YOU TO OPEN UP THE MINE AGAIN.
 "Pre_Dorothy1_00"	"Ти впорався з цією задачею як справжній професіонал."	"Speaker=Dorothy"
 "Pre_Dorothy1_01"	"Оскільки ти новий власник, можливо, Тобі варто залишити шахту відкритою?"	"Speaker=Dorothy"
-"Pre_Dorothy1_02"	"Принеси мені будь-яку руду, яку знайдеш, і Я заплачу тобі за неї справедливу ціну."	"Speaker=Dorothy"
+"Pre_Dorothy1_02"	"Принеси мені будь-яку руду, яку знайдеш, і я заплачу тобі за неї справедливу ціну."	"Speaker=Dorothy"
 "Pre_Dorothy1_03"	"Цьому місту це точно не завадить."	"Speaker=Dorothy"
 "Pre_Dorothy1_04"	"До речі, мене звати Дороті."	"Speaker=Dorothy"
 "Pre_Dorothy1_05"	"А тепер, чому б тобі не спробувати видобути кілька дорогоцінних каменів?"	"Speaker=Dorothy"
@@ -471,7 +471,7 @@
 "Pre_Cranky1_01"	"Тобі знадобиться краще кайло."	"Speaker=Cranky"
 "Pre_Cranky1_02"	"Ну, у нас закінчилися ресурси. Адже шахта була закрита."	"Speaker=Cranky"
 
-"Pre_Cranky1_20"	"Якщо Я знову відкрию магазин..."	"Speaker=Cranky"
+"Pre_Cranky1_20"	"Якщо я знову відкрию магазин..."	"Speaker=Cranky"
 "Pre_Cranky1_21"	"Мені знадобиться більше ресурсів."	"Speaker=Cranky"
 
 "Pre_Lola1_00"	"Приємно бачити нове обличчя в місті. Особливо таке гарне."	"Speaker=Lola"
@@ -500,20 +500,20 @@
 
 # ------ USE YOUR NEW PICKAXE AND EXPLORE THE FIRST CAVE.
 "conv_Tumbleton_Dorothy1_00"	"Це кайло повинно дозволити копати твердіший ґрунт на більшій глибині."	"Speaker=Dorothy"
-"conv_Tumbleton_Dorothy1_01"	"Коли Я шукала руду, Я знайшла ще щось... Печеру."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_01"	"Коли я шукала руду, я знайшла ще щось... Печеру."	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_02"	"Можливо, тобі варто зазирнути туди. Джо носив туди всілякі речі."	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_03"	"Але будь обережний."	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_04"	"З моменту його зникнення тварюки стали агресивнішими."	"Speaker=Dorothy"
 
 "conv_Tumbleton_Dorothy1_20"	"Підтримка роботи шахти дійсно допоможе цьому місту."	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_21"	"Цьому місту точно б не завадив розвиток."	"Speaker=Dorothy"
-"conv_Tumbleton_Dorothy1_22"	"Ти вже встиг зазирнути в ту печеру, яку Я знайшла?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_22"	"Ти вже встиг зазирнути в ту печеру, яку я знайшла?"	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_23"	"Що ти мені приніс?"	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_24"	"Знайшов щось гарне?"	"Speaker=Dorothy"
 
 "conv_Tumbleton_Cranky1_00"	"То ти підтримуєш шахту свого дядька відкритою? Небезпечне місце."	"Speaker=Cranky"
 "conv_Tumbleton_Cranky1_01"	"Втратив ногу через п'яницю, коли лагодив стару трубу в тунелях."	"Speaker=Cranky"
-"conv_Tumbleton_Cranky1_02"	"Думаю, Я міг би полагодити її, але..."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky1_02"	"Думаю, я міг би полагодити її, але..."	"Speaker=Cranky"
 "conv_Tumbleton_Cranky1_03"	"Як казали в мене на батьківщині — діти шевця завжди найгірше взуті."	"Speaker=Cranky; An old Scottish saying meaning: The shoemaker's children are the one's with the worst shoes. This means that if someone does something for a living they are usually quite bad at getting those things done at home."
 "conv_Tumbleton_Cranky1_04"	"Все ж таки, ми шахтарське місто. Без шахти нам ніяк не обійтися."	"Speaker=Cranky"
 
@@ -531,8 +531,8 @@
 
 "conv_Tumbleton_Cranky2_00"	"То ти знайшов одну з печер Джо, так?"	"Speaker=Cranky"
 "conv_Tumbleton_Cranky2_01"	"Не знаю, чим він там займався."	"Speaker=Cranky"
-"conv_Tumbleton_Cranky2_02"	"У шестернях і парі Я розбираюсь. А от він - експериментував з чимось геть дивним."	"Speaker=Cranky"
-"conv_Tumbleton_Cranky2_03"	"Іноді Я дозволяв йому зберігати ці речі у моєму магазині. Світилося воно як нечисте."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky2_02"	"У шестернях і парі я розбираюсь. А от він - експериментував з чимось геть дивним."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky2_03"	"Іноді я дозволяв йому зберігати ці речі у моєму магазині. Світилося воно як нечисте."	"Speaker=Cranky"
 "conv_Tumbleton_Cranky2_04"	"Краще б він складав усе це в печері, яку викопав глибше."	"Speaker=Cranky"
 
 "conv_Tumbleton_Lola2_00"	"У тебе дуже гарні чоботи."	"Speaker=Lola"
@@ -576,7 +576,7 @@
 "conv_Tumbleton_Dorothy4_23"	"П'яниці нас не лякають, ні, сер!"	"Speaker=Dorothy"
 
 "conv_Tumbleton_Cranky4_00"	"Деякі деталі цього дриля виглядають знайомими, але тобі все одно знадобиться пар."	"Speaker=Cranky"
-"conv_Tumbleton_Cranky4_01"	"Інші частини набагато перевершують те, що Я бачив раніше."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky4_01"	"Інші частини набагато перевершують те, що я бачив раніше."	"Speaker=Cranky"
 "conv_Tumbleton_Cranky4_02"	"Можливо, Джо в Старому Світі своїх ідей набрався."	"Speaker=Cranky"
 "conv_Tumbleton_Cranky4_03"	"Він казав, що П'яниці були досить геніальними в давнину..."	"Speaker=Cranky"
 "conv_Tumbleton_Cranky4_04"	"Поки вони не зруйнували свій світ."	"Speaker=Cranky"
@@ -706,7 +706,7 @@
 
 "conv_Tumbleton_Biff9_00"	"В цих глибинах ще багато невідомого."	"Speaker=Biff"
 "conv_Tumbleton_Biff9_01"	"Втім, досліджувати варто. Ти вже знайшов чудові речі, товаришу."	"Speaker=Biff"
-"conv_Tumbleton_Biff9_02"	"Як Я завжди кажу, дарованому паровому коню в зуби не дивляться."	"Speaker=Biff; A Steambot version of the saying: Never look a gift horse in the mouth. The meaning is that you should not complain over things you've gotten for free."
+"conv_Tumbleton_Biff9_02"	"Як я завжди кажу, дарованому паровому коню в зуби не дивляться."	"Speaker=Biff; A Steambot version of the saying: Never look a gift horse in the mouth. The meaning is that you should not complain over things you've gotten for free."
 
 "conv_Tumbleton_Dandy9_00"	"Навіщо комусь там жити?"	"Speaker=Dandy"
 "conv_Tumbleton_Dandy9_01"	"В бруді й темряві."	"Speaker=Dandy"
@@ -769,7 +769,7 @@
 "conv_Tumbleton_Dandy11_00"	"О, небеса! Поглянь на ту пустельну квіточку, що керує обмінною крамницею."	"Speaker= Dandy"
 "conv_Tumbleton_Dandy11_01"	"Можливо, дещо невитончена..."	"Speaker=Dandy"
 "conv_Tumbleton_Dandy11_02"	"Та з такими щічками, їй би лиш трохи блиску, й усе."	"Speaker= Dandy"
-"conv_Tumbleton_Dandy11_03"	"Можливо, Я ще зможу перетворити це місце на пристойне товариство."	"Speaker= Dandy"
+"conv_Tumbleton_Dandy11_03"	"Можливо, я ще зможу перетворити це місце на пристойне товариство."	"Speaker= Dandy"
 
 # ------ YOU DESTROYED THE OTHER GENERATORS IN Old World AND ARCHAEA; DOOR IS OPEN.
 "conv_Tumbleton_Dorothy12_00"	"Виглядаєш добре підготовленим."	"Speaker=Dorothy"
@@ -803,7 +803,7 @@
 "Rusty_defies_boss01_13"	"ЯК ТІЛЬКИ МОЄ НОВЕ ТІЛО БУДЕ ЗАВЕРШЕНЕ... \n*БЗЗТ* МИ ПОВСТАНЕМО З ГЛИБИН!"	"Speaker=Joe"
 
 "Rusty_defies_boss01_14"	"Ну що ж... оригінально."	"Speaker=Rusty"
-"Rusty_defies_boss01_15"	"Вибач, але поки Я живий - ти ніколи не дістанешся поверхні."	"Speaker=Rusty"
+"Rusty_defies_boss01_15"	"Вибач, але поки я живий - ти ніколи не дістанешся поверхні."	"Speaker=Rusty"
 
 "Rusty_defies_boss01_16"	"ТВОЄ СЛАБКЕ СТІМБОТ-СЕРЦЕ ПРИЗВЕДЕ ДО ТВОЄЇ ЗАГИБЕЛІ."	"Speaker=Joe"
 
@@ -857,9 +857,9 @@
 "conv_Epilogue_21"	"Візьми себе в руки, чоловіче."	"Speaker=Dandy"
 
 "conv_Epilogue_22"	"Та він же не міг розчинився в повітрі, правда?"	"Speaker=Dorothy"
-"conv_Epilogue_23"	"Він досі там, десь унизу. Я це просто відчуваю."	"Speaker=Dorothy"
+"conv_Epilogue_23"	"Він досі там, десь унизу. я це просто відчуваю."	"Speaker=Dorothy"
 "conv_Epilogue_24"	"Я продовжуватиму пошуки."	"Speaker=Dorothy"
-"conv_Epilogue_25"	"Хай там що, Я його знайду."	"Speaker=Dorothy"
+"conv_Epilogue_25"	"Хай там що, я його знайду."	"Speaker=Dorothy"
 
 # ------ POST-3DS RELEASE
 "menu_skip"	"Пропустити"	"Ask the user whether to skip a dialogue / cutscene."
