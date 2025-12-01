@@ -28,22 +28,22 @@
 "upgrade_pouch_2_02"	"Величезний Мiшок"	""
 "upgrade_pouch_3_01"	"Грандiозний Мiшок"	""
 
-"upgrade_enable_pickaxe"	"Стара Кирка"	""
-"upgrade_pickaxe_pre"	"Гостра Кирка"	"Rusty's first and most basic tool. Can be upgraded according to the below. Each upgrade decreases the number of hits you need to break stone. Note that each level should have a 'tougher' name than the one before."
-"upgrade_pickaxe_1_01"	"Мiдна Кирка"	""
-"upgrade_pickaxe_1_02"	"Бронзова Кирка"	""
-"upgrade_pickaxe_1_03"	"Залiзна Кирка"	""
-"upgrade_pickaxe_1_04"	"Стальна Кирка"	""
-"upgrade_pickaxe_2_01"	"Вольфрамова Кирка"	""
-"upgrade_pickaxe_2_02"	"Срiбляна Кирка"	""
-"upgrade_pickaxe_2_03"	"Золота Кирка"	""
-"upgrade_pickaxe_2_04"	"Платинова Кирка"	""
-"upgrade_pickaxe_3_01"	"Гранатова Кирка"	""
-"upgrade_pickaxe_3_02"	"Смарагдова Кирка"	""
-"upgrade_pickaxe_3_03"	"Рубiнова Кирка"	""
-"upgrade_pickaxe_3_04"	"Дiамантова Кирка"	""
-"upgrade_pickaxe_speed_1"	"Швидка Кирка"	"Increases the number of times Rusty can swing his pickaxe during a given amount of time. A one time upgrade."
-"upgrade_pickaxe_damage_1"	"Руйнiвна Кирка"	"Increases the amount of damage Rusty's pickaxe inflicts upon enemies. First out of two one-time upgrades"
+"upgrade_enable_pickaxe"	"Старе Кайло"	""
+"upgrade_pickaxe_pre"	"Гостре Кайло"	"Rusty's first and most basic tool. Can be upgraded according to the below. Each upgrade decreases the number of hits you need to break stone. Note that each level should have a 'tougher' name than the one before."
+"upgrade_pickaxe_1_01"	"Мiдне Кайло"	""
+"upgrade_pickaxe_1_02"	"Бронзове Кайло"	""
+"upgrade_pickaxe_1_03"	"Залiзне Кайло"	""
+"upgrade_pickaxe_1_04"	"Стальне Кайло"	""
+"upgrade_pickaxe_2_01"	"Вольфрамове Кайло"	""
+"upgrade_pickaxe_2_02"	"Срiбляне Кайло"	""
+"upgrade_pickaxe_2_03"	"Золоте Кайло"	""
+"upgrade_pickaxe_2_04"	"Платинове Кайло"	""
+"upgrade_pickaxe_3_01"	"Гранатове Кайло"	""
+"upgrade_pickaxe_3_02"	"Смарагдове Кайло"	""
+"upgrade_pickaxe_3_03"	"Рубiнове Кайло"	""
+"upgrade_pickaxe_3_04"	"Дiамантове Кайло"	""
+"upgrade_pickaxe_speed_1"	"Швидке Кайло"	"Increases the number of times Rusty can swing his pickaxe during a given amount of time. A one time upgrade."
+"upgrade_pickaxe_damage_1"	"Руйнiвне Кайло"	"Increases the amount of damage Rusty's pickaxe inflicts upon enemies. First out of two one-time upgrades"
 
 "upgrade_drill_1_01"	"Майстербур"	"Increases the damage Rusty's drill inflicts on dirt tiles. Each name should sound cooler than the one before it."
 "upgrade_drill_1_02"	"Бур-о-трон"	""
@@ -102,21 +102,21 @@
 "upgrade_pouch_2_02_desc"	"+1 слот в iнвентарi. \nТканина цього мiшка е надзвичайно еластичною. Клас на всi сто!"	""
 "upgrade_pouch_3_01_desc"	"+1 слот в iнвентарi. \nПотрiйна прошивка з подвiйною пiдкладкою - витримае навiть найважчий вантаж!"	""
 
-"upgrade_pickaxe_pre_desc"	"Я заточу для тебе цю кирку. З нею ти зможеш копати твердiший грунт."	"In-store descriptions for pickaxe upgrades. The instances with the suffix pre or _1 are sold by Cranky; _2 by Biff; _3 by dandy."
+"upgrade_pickaxe_pre_desc"	"Я заточу для тебе це кайло. З ним ти зможеш копати твердiший грунт."	"In-store descriptions for pickaxe upgrades. The instances with the suffix pre or _1 are sold by Cranky; _2 by Biff; _3 by dandy."
 "upgrade_pickaxe_1_01_desc"	"+2 пошкодження грунту. \nПринаймнi, мiцнiша за ту, що у тебе е."	""
 "upgrade_pickaxe_1_02_desc"	"+2 пошкодження грунту. \nДодавання трохи олова до цього леза повинно його змiцнити."	""
 "upgrade_pickaxe_1_03_desc"	"+2 пошкодження грунту. \nЦе метал найвищоï якостi. Гарний i чистий."	""
 "upgrade_pickaxe_1_04_desc"	"+2 пошкодження грунту. \nЯ загартую твое лезо, i тобi буде легше копати."	""
-"upgrade_pickaxe_2_01_desc"	"+2 пошкодження грунту. \nМiцна кирка для такого вiдчайдуха, як ти."	""
+"upgrade_pickaxe_2_01_desc"	"+2 пошкодження грунту. \nМiцне кайло для такого вiдчайдуха, як ти."	""
 "upgrade_pickaxe_2_02_desc"	"+2 пошкодження грунту. \nРiдке срiбне ядро збiльшить силу твоïх замахiв."	""
 "upgrade_pickaxe_2_03_desc"	"+2 пошкодження грунту. \nПокращи ядро до чистого золота - i замахи стануть ще потужнiшими."	""
-"upgrade_pickaxe_2_04_desc"	"+2 пошкодження грунту. \nМiцна - це слово, яке найкраще пiдходить для опису цiеï кирки."	""
+"upgrade_pickaxe_2_04_desc"	"+2 пошкодження грунту. \nМiцне - це слово, яке найкраще пiдходить для опису цього кайла."	""
 "upgrade_pickaxe_3_01_desc"	"+2 пошкодження грунту. \nГостра i мiцна. А ще вона доступна у рiзних кольорах."	""
 "upgrade_pickaxe_3_02_desc"	"+2 пошкодження грунту. \nЗавжди можна пiдвищити рiвень твердостi."	""
 "upgrade_pickaxe_3_03_desc"	"+2 пошкодження грунту. \nВисока вартiсть тут обумовлена не тiльки гарним кольором"	""
 "upgrade_pickaxe_3_04_desc"	"+2 пошкодження грунту. \nНайтвердiша з найтвердiших. Краса - це просто приемний додаток."	""
-"upgrade_pickaxe_speed_1_desc"	"+20% швидкостi кирки. \nАеродинамiка, друже! Це покращення дозволить кирцi розрiзати повiтря, як масло."	"In-store description for the speed upgrade to the pickaxe. Sold by Biff."
-"upgrade_pickaxe_damage_1_desc"	"+1 пошкодження ворогам. \nХочеш обробити кiнчик кирки цим? Ворогам це не сподобаеться."	"In-store description for enemy damage upgrade for the pickaxe. Sold by Cranky."
+"upgrade_pickaxe_speed_1_desc"	"+20% швидкостi кайла. \nАеродинамiка, друже! Це покращення дозволить кайлу розрiзати повiтря, як масло."	"In-store description for the speed upgrade to the pickaxe. Sold by Biff."
+"upgrade_pickaxe_damage_1_desc"	"+1 пошкодження ворогам. \nХочеш обробити кiнчик кайла цим? Ворогам це не сподобаеться."	"In-store description for enemy damage upgrade for the pickaxe. Sold by Cranky."
 
 "upgrade_drill_1_01_desc"	"+4 пошкодження грунту. \nМайстербур 3000 - головка зi спецiальними жолобками, що полегшують бурiння твердого грунту."	"In-store descriptions for drill upgrades. The instances with the suffix _1 are sold by Biff; _2 by Dandy."
 "upgrade_drill_1_02_desc"	"+4 пошкодження грунту. \nБур-о-трон це найновiша i найкраща технологiя у сферi бурових головок."	""
@@ -330,7 +330,7 @@
 "death_suicide_01"	"Якщо застряг, пошукай воду. Це може допомогти тобi вибратися."	"Speaker=Lola"
 "death_suicide_02"	"Деякi з набутих нових навичок дозволять тобi повернутися неушкодженим."	"Speaker=Lola"
 "death_suicide_03"	"Iнодi варто копати вниз, щоб повернутися нагору."	"Speaker=Lola"
-"death_suicide_04"	"Якщо грунт став надто твердим, можливо, слiд удосконалити кирку."	"Speaker=Lola"
+"death_suicide_04"	"Якщо грунт став надто твердим, можливо, слiд удосконалити кайло."	"Speaker=Lola"
 "death_suicide_05"	"Ти можеш дотягнутися до протилежноï стiнки у вертикальному тунелi, щоб прокласти собi горизонтальний шлях."	"Speaker=Lola"
 
 "death_enemy_acidblock_00"	"Спробуй пiдкопувати небезпечнi блоки з рiзних бокiв."	"Speaker=Lola"
@@ -342,7 +342,7 @@
 "death_enemy_ACID_POOL_01"	"Ти можеш ненадовго зануритися в цю речовину, але не варто приймати в нiй ванну."	"Speaker=Lola"
 
 "death_enemy_trilobite_00"	"З убитих тварюк можуть випадати кориснi речi."	"Speaker=Lola"
-"death_enemy_trilobite_01"	"Такий сильний хлопець, як ти, повинен бути в змозi впоратися з цими тварюками своею киркою."	"Speaker=Lola"
+"death_enemy_trilobite_01"	"Такий сильний хлопець, як ти, повинен бути в змозi впоратися з цими тварюками своïм кайлом."	"Speaker=Lola"
 "death_enemy_trilobite_02"	"Намагайся знищити тварюк до того, як вони вирвуться з-пiд грунту."	"Speaker=Lola"
 "death_enemy_trilobite_03"	"Краще пiдкрадайся i бий цих тварюк у спину - так безпечнiше."	"Speaker=Lola"
 "death_enemy_trilobite_04"	"Ти можеш використати перевагу висоти, щоб триматися подалi вiд небезпеки."	"Speaker=Lola"
@@ -418,7 +418,7 @@
 "Dandy_fallback_20"	"Ласкаво просимо, сер."	"Speaker=Dandy"
 "Dandy_fallback_21"	"Поглянь на нашi першокласнi товари."	"Speaker=Dandy"
 "Dandy_fallback_22"	"Сам факт, що ви в моïй лавцi, свiдчить про ваш витончений смак."	"Speaker=Dandy"
-"Dandy_fallback_23"	"Шукаете в життi чогось вишуканого, Я так розумiю?"	"Speaker=Dandy"
+"Dandy_fallback_23"	"Шукаете в життi чогось вишуканого, я так розумiю?"	"Speaker=Dandy"
 "Dandy_fallback_24"	"Справжня цiннiсть речi - не у вартостi ïï виробництва."	"Speaker=Dandy"
 "Dandy_fallback_25"	"Роздивляйся скiльки душа забажае."	"Speaker=Dandy"
 
@@ -437,7 +437,7 @@
 "Dorothy_in_mine_05"	"Я прямував до Тамблетона, щоб з'ясувати чому, як раптом провалився."	"Speaker=Rusty"
 
 "Dorothy_in_mine_06"	"Ох... \nТи племiнник Джо?"	"Speaker=Dorothy"
-"Dorothy_in_mine_07"	"Вiн вже давно не з'являвся. \nЯ крадькома спускалася сюди, щоб видобувати те, що могла, i..."	"Speaker=Dorothy"
+"Dorothy_in_mine_07"	"Вiн вже давно не з'являвся. \nя крадькома спускалася сюди, щоб видобувати те, що могла, i..."	"Speaker=Dorothy"
 "Dorothy_in_mine_08"	"Я щойно його знайшла"	"Speaker=Dorothy"
 "Dorothy_in_mine_09"	"Вибач..."	"Speaker=Dorothy"
 "Dorothy_in_mine_10"	"Ти повинен пiти i подивитися сам."	"Speaker=Dorothy"
@@ -447,9 +447,9 @@
 "dead_miner_02"	"Ти завжди казав, що ми дуже схожi? \nХоча я не розумiю, чому ти надiслав менi права на цю шахту."	"Speaker=Rusty"
 "dead_miner_03"	"Я не шахтар."	"Speaker=Rusty"
 "dead_miner_04"	"*Зiтхання* \nНе хочу мародерствувати."	"Speaker=Rusty"
-"dead_miner_05"	"Я тiльки позичу твою кирку, щоб вибратися з цiеï пастки."	"Speaker=Rusty"
+"dead_miner_05"	"Я тiльки позичу твое кайло, щоб вибратися з цiеï пастки."	"Speaker=Rusty"
 
-"Dorothy_in_mine_12"	"Бачу, ти знайшов кирку. \nЗ нею ти дiйсно виглядаеш як справжнiй шахтар."	"Speaker=Dorothy"
+"Dorothy_in_mine_12"	"Бачу, ти знайшов кайло. \nЗ ним ти дiйсно виглядаеш як справжнiй шахтар."	"Speaker=Dorothy"
 "Dorothy_in_mine_13"	"Це добре. Важiль, який вiдкривае вихiд, засипало, коли ти впав сюди."	"Speaker=Dorothy"
 "Dorothy_in_mine_14"	"Щоб дiстатися до нього, тобi доведеться прорити тунель вниз."	"Speaker=Dorothy"
 
@@ -468,7 +468,7 @@
 "Pre_Dorothy1_22"	"Продовжуй добувати коштовностi."	"Speaker=Dorothy"
 
 "Pre_Cranky1_00"	"Моï друзi називають мене Хенк або Буркотун... \nТи можеш називати мене мiстер МакКранк."	"Speaker=Cranky"
-"Pre_Cranky1_01"	"Тобi знадобиться краща кирка."	"Speaker=Cranky"
+"Pre_Cranky1_01"	"Тобi знадобиться краще кайло."	"Speaker=Cranky"
 "Pre_Cranky1_02"	"Ну, у нас закiнчилися ресурси. Адже шахта була закрита."	"Speaker=Cranky"
 
 "Pre_Cranky1_20"	"Якщо я знову вiдкрию магазин..."	"Speaker=Cranky"
@@ -486,10 +486,10 @@
 # ------ YOU CAN NOW UPGRADE YOUR PICKAXE.
 "Pre_Dorothy2_00"	"Схоже, ти починаеш розумiти, як це працюе."	"Speaker=Dorothy"
 "Pre_Dorothy2_01"	"Ти повинен пiти до мого тата в магазин оновлень."	"Speaker=Dorothy"
-"Pre_Dorothy2_02"	"Вiн полагодить кирку, щоб ти мiг копати ще глибше."	"Speaker=Dorothy"
+"Pre_Dorothy2_02"	"Вiн полагодить кайло, щоб ти мiг копати ще глибше."	"Speaker=Dorothy"
 "Pre_Dorothy2_03"	"Але не кажи йому, що ми зустрiлися в шахтi."	"Speaker=Dorothy"
 
-"Pre_Dorothy2_20"	"Iди поговори з моïм татом щодо ремонту твоеï кирки."	"Speaker=Dorothy"
+"Pre_Dorothy2_20"	"Iди поговори з моïм татом щодо ремонту твого кайла."	"Speaker=Dorothy"
 
 "Pre_Cranky2_00"	"Тепер у мене е, з чим працювати."	"Speaker=Cranky"
 
@@ -499,21 +499,21 @@
 "Pre_Lola2_20"	"Приемно, що тут знову хтось займаеться видобутком."	"Speaker=Lola"
 
 # ------ USE YOUR NEW PICKAXE AND EXPLORE THE FIRST CAVE.
-"conv_Tumbleton_Dorothy1_00"	"Ця кирка повинна дозволити копати твердiший грунт на бiльшiй глибинi."	"Speaker=Dorothy"
-"conv_Tumbleton_Dorothy1_01"	"Коли Я шукала руду, я знайшла ще щось... Печеру."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_00"	"Це кайло повинно дозволити копати твердiший грунт на бiльшiй глибинi."	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_01"	"Коли я шукала руду, я знайшла ще щось... Печеру."	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_02"	"Можливо, тобi варто зазирнути туди. Джо носив туди всiлякi речi."	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_03"	"Але будь обережний."	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_04"	"З моменту його зникнення тварюки стали агресивнiшими."	"Speaker=Dorothy"
 
 "conv_Tumbleton_Dorothy1_20"	"Пiдтримка роботи шахти дiйсно допоможе цьому мiсту."	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_21"	"Цьому мiсту точно б не завадив розвиток."	"Speaker=Dorothy"
-"conv_Tumbleton_Dorothy1_22"	"Ти вже встиг зазирнути в ту печеру, яку Я знайшла?"	"Speaker=Dorothy"
+"conv_Tumbleton_Dorothy1_22"	"Ти вже встиг зазирнути в ту печеру, яку я знайшла?"	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_23"	"Що ти менi принiс?"	"Speaker=Dorothy"
 "conv_Tumbleton_Dorothy1_24"	"Знайшов щось гарне?"	"Speaker=Dorothy"
 
 "conv_Tumbleton_Cranky1_00"	"То ти пiдтримуеш шахту свого дядька вiдкритою? Небезпечне мiсце."	"Speaker=Cranky"
 "conv_Tumbleton_Cranky1_01"	"Втратив ногу через п'яницю, коли лагодив стару трубу в тунелях."	"Speaker=Cranky"
-"conv_Tumbleton_Cranky1_02"	"Думаю, Я мiг би полагодити ïï, але..."	"Speaker=Cranky"
+"conv_Tumbleton_Cranky1_02"	"Думаю, я мiг би полагодити ïï, але..."	"Speaker=Cranky"
 "conv_Tumbleton_Cranky1_03"	"Як казали в мене на батькiвщинi — дiти шевця завжди найгiрше взутi."	"Speaker=Cranky; An old Scottish saying meaning: The shoemaker's children are the one's with the worst shoes. This means that if someone does something for a living they are usually quite bad at getting those things done at home."
 "conv_Tumbleton_Cranky1_04"	"Все ж таки, ми шахтарське мiсто. Без шахти нам нiяк не обiйтися."	"Speaker=Cranky"
 
@@ -680,7 +680,7 @@
 "conv_Tumbleton_Lola8_20"	"Схоже, ти й справдi готовий зустрiти невiдоме."	"Speaker=Lola"
 
 "conv_Tumbleton_Biff8_00"	"Я вважаю, що чим глибше ти копаеш, тим краще буде нам усiм."	"Speaker=Biff"
-"conv_Tumbleton_Biff8_01"	"Забудь про обережнiсть, мандрiвнику, i розмахнись киркою як слiд."	"Speaker=Biff"
+"conv_Tumbleton_Biff8_01"	"Забудь про обережнiсть, мандрiвнику, i розмахнись кайлом як слiд."	"Speaker=Biff"
 "conv_Tumbleton_Biff8_02"	"Йiхаа!"	"Speaker=Biff"
 
 # ------ YOU'VE FOUND THE MINIMAP; YOU'VE BROKEN THROUGH THE FIRST BARRIER.
@@ -857,7 +857,7 @@
 "conv_Epilogue_21"	"Вiзьми себе в руки, чоловiче."	"Speaker=Dandy"
 
 "conv_Epilogue_22"	"Та вiн же не мiг розчинився в повiтрi, правда?"	"Speaker=Dorothy"
-"conv_Epilogue_23"	"Вiн досi там, десь унизу. Я це просто вiдчуваю."	"Speaker=Dorothy"
+"conv_Epilogue_23"	"Вiн досi там, десь унизу. я це просто вiдчуваю."	"Speaker=Dorothy"
 "conv_Epilogue_24"	"Я продовжуватиму пошуки."	"Speaker=Dorothy"
 "conv_Epilogue_25"	"Хай там що, я його знайду."	"Speaker=Dorothy"
 
@@ -926,7 +926,7 @@
 "button_use_tool"	"Використати предмет"	""
 "button_cycle_weapon"	"Змiнити зброю"	""
 "button_cycle_tool"	"Змiнити предмет"	""
-"button_weapon_1"	"Вибрати Кирку"	""
+"button_weapon_1"	"Вибрати Кайло"	""
 "button_weapon_2"	"Вибрати Бур"	""
 "button_weapon_3"	"Вибрати Паровий Удар"	""
 "button_inventory"	"Показати iнвентар"	""
